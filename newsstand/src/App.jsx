@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { Date } from "./js/Date";
+import { CustomDate } from "./js/Date";
 import "./App.css";
 
 function App() {
@@ -7,12 +7,12 @@ function App() {
     <div className="wrap">
       <div className="header">
         <div className="title">
-          <button className="refresh-btn" onClick={() => location.reload()}>
+          <button className="refresh-btn" onClick={() => location.reload}>
             <img src="./public/img/refresh.png" />
           </button>
           <h1>뉴스스탠드</h1>
         </div>
-        <Date />
+        <CustomDate />
       </div>
       <div className="rollingnews">
         <div className="rollingnews-contents">
