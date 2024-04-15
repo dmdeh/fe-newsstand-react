@@ -1,11 +1,5 @@
 import { styled } from "styled-components";
-
-function getCurrentDate() {
-  const date = new Date();
-  const weekDay = ["일", "월", "화", "수", "목", "금", "토"];
-  const dayName = weekDay[date.getDay()];
-  return `${date.toLocaleDateString()} ${dayName}요일`;
-}
+import { getCurrentDate } from "../utils/utils.js";
 
 export function CustomDate() {
   return <StyledSpan>{getCurrentDate()}</StyledSpan>;
