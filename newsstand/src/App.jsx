@@ -1,5 +1,5 @@
 import { Presscompany } from "./js/Presscompany";
-import { Header } from "./js/header";
+import { Header } from "./js/Header";
 // import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import "./App.css";
 

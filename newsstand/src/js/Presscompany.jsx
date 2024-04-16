@@ -1,17 +1,12 @@
 import styled from "styled-components";
-// import { Subscription } from "./Subscribe";
+import { Subscription } from "./Subscribe";
 import { shuffle } from "../utils/utils";
 import { logoImageSrc } from "../data/newsLogos.json";
 
 const PAGE_SIZE = 24;
 
 export function Presscompany() {
-  return (
-    <StyledGrid className="presscompany">
-      {renderGrid(0)}
-      {/* <Subscription /> */}
-    </StyledGrid>
-  );
+  return <StyledGrid className="presscompany">{renderGrid(0)}</StyledGrid>;
 }
 
 function createGrid(index) {
@@ -20,6 +15,7 @@ function createGrid(index) {
     return (
       <StyledLogo className="presscompany-logo" key={index}>
         <img src={shuffleLogos[index]} alt={`Logo ${index}`} />
+        <Subscription />
       </StyledLogo>
     );
   }
