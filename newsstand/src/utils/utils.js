@@ -8,3 +8,8 @@ export const getCurrentDate = () => {
   const dayName = weekDay[date.getDay()];
   return `${date.toLocaleDateString()} ${dayName}요일`;
 };
+
+export const shuffle = (array) => {
+  array.sort(() => Math.random() - 0.5);
+  return array;
+};

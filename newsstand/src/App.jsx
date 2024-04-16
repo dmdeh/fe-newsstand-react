@@ -1,6 +1,6 @@
-// import { Presscompany } from "./js/Presscompany";
+import { Presscompany } from "./js/Presscompany";
 import { Header } from "./js/header";
-import { LeftOutlined, RightOutlined } from "@ant-design/icons";
+// import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import "./App.css";
 
 function App() {
@@ -29,13 +29,13 @@ function App() {
           </div>
         </div>
         <div className="presscompany-contents">
-          <button className="left-btn">
+          {/* <button className="left-btn">
             <LeftOutlined />
           </button>
           <button className="right-btn">
             <RightOutlined />
-          </button>
-          {/* <Presscompany /> */}
+          </button> */}
+          <Presscompany />
         </div>
       </div>
     </div>

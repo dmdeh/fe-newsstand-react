@@ -23,6 +23,10 @@
   background-color: #ececec;
 }
 
+.presscompany {
+  display: flex;
+  flex-direction: column;
+}
 .presscompany-header {
   display: flex;
   align-items: center;
@@ -35,20 +39,21 @@
   font-size: 20px;
 }
 
-.view-btn {
-  display: flex;
-}
-
 .presscompany-contents {
   height: 400px;
+}
+
+.view-btn {
+  display: flex;
 }
 
 .left-btn,
 .right-btn {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
   font-size: 50px;
+  width: 50px;
+  z-index: 1;
   color: #909090;
 }
 
