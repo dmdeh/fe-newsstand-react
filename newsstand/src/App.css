@@ -51,6 +51,22 @@
 }
 
 .presscompany-contents {
-height: 400px;
-background-color: #ececec;
+  height: 400px;
+}
+
+.left-btn,
+.right-btn {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: #909090;
+}
+
+.left-btn {
+  left: -10%;
+}
+
+.right-btn {
+  right: -100%;
 }

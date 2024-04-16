@@ -6,6 +6,5 @@ export function CustomDate() {
 }
 
 const StyledSpan = styled.span`
-  margin-right: 20px;
   font-size: 20px;
 `;

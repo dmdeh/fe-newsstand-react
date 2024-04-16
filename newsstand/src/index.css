@@ -13,8 +13,8 @@ h1 {
 }
 
 button {
+  background: none;
   border: 1px solid transparent;
   font-family: inherit;
-  background-color: #ffffff;
   cursor: pointer;
 }

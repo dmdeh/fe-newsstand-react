@@ -1,0 +1,2560 @@
+{
+  "subscribe": [],
+  "news": [
+    {
+      "id": "2eef",
+      "pressName": "서울파이낸스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/824.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "정부, 세수 부족에 1분기 '한은 마통' 32.5조 썼다···역대 최대"
+      },
+      "sideNews": [
+        {
+          "title": "중동 리스크 고조···산업계, 유가상승 등 영향 주시"
+        },
+        {
+          "title": "급증한 은행권 '대기성 자금'···주식·코인에 '뭉칫돈' 몰린다"
+        },
+        {
+          "title": "부동산 전문가 5인에게 묻다···총선 막후, 집값 향방은?"
+        },
+        {
+          "title": "드론·로켓택배 상용화 '성큼'···눈앞에 다가온 '물류 혁신'"
+        },
+        {
+          "title": "저축銀, 부동산PF 손실 추정액 최대 5兆···수익·적정성 일제히 악화"
+        },
+        {
+          "title": "정부 \"중동發 불확실성 확대···유류세 인하 2개월 추가 연장\""
+        }
+      ]
+    },
+    {
+      "id": "9ecd",
+      "pressName": "한국금융신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/968.png",
+      "editedTime": "04월 15일 09:30 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "비트코인 현물 ETF, ‘여소야대’ 총선 결과에 거래 허용되나 [4.10 총선 영향]"
+      },
+      "sideNews": [
+        {
+          "title": "[르포] 직격탄 맞은 다세대·연립, 대출금 못 갚아 법원行…왜?"
+        },
+        {
+          "title": "조병규, 해외법인 ‘성장 전환’ 부심…쇄신 전략 통할까"
+        },
+        {
+          "title": "대표·의장 겸직한 오너…4대 그룹 중 현대車 유일 [2024 이사회 톺아보기]"
+        },
+        {
+          "title": "“이 안건 반댈세”…지방금융지주 3곳 중 BNK 이사진만 제구실  [금융 이사회 줌人 (2) 사외이사]"
+        },
+        {
+          "title": "‘한화 3남’ 김동선 “덩치가 커졌어요”"
+        },
+        {
+          "title": "GA 대표들 “시장 확대 따른 판매전문회사 법제화 시급” [GA 기획]"
+        }
+      ]
+    },
+    {
+      "id": "372c",
+      "pressName": "인더스트리뉴스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2021/0907/nsd9423633.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "[In터뷰] 굿위, 다양한 최신 기능 탑재해 모두에게 친절한 스트링 인버터 공급"
+      },
+      "sideNews": [
+        {
+          "title": "콩가텍, COM-HPC Mini 모듈용 3.5인치 애플리케이션 캐리어 보드 출시"
+        },
+        {
+          "title": "리벨리온, 생성형 AI용 차세대 신경망 처리 장치에 아테리스 제품 선택"
+        },
+        {
+          "title": "[B트렌드] 전기차 판매량 감소 영향 배터리 시장 주춤… 삼성SDI만 성장률 높여"
+        },
+        {
+          "title": "UNIST, 크라우드소싱 통합한 라스트 마일 배송으로 물류 최적화 도출"
+        },
+        {
+          "title": "[In터뷰] 네모시스템, ‘기가IPC’로 산업용 컴퓨터 시장 이끈다… “선두기업으로 발돋움 중”"
+        },
+        {
+          "title": "[In터뷰] 비에스텍, 오랜 태양광 시공 경험으로 푸는 인버터 선정 팁… 전력시장 변화 대응 필수"
+        }
+      ]
+    },
+    {
+      "id": "7637",
+      "pressName": "파이낸셜뉴스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/014.png",
+      "editedTime": "04월 15일 09:49 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "'의사 이길 수 없다' 前 의협회장, 파격 선언 \"정치세력을...\""
+      },
+      "sideNews": [
+        {
+          "title": "\"한국 남자는 모두 이런가요\"...태국여성의 호소"
+        },
+        {
+          "title": "\"하루 10개비 이상의 담배 피우는 남성은...\""
+        },
+        {
+          "title": "경기 하천서 50대 숨진 채 발견, 현장 살펴보니.."
+        },
+        {
+          "title": "\"총선 패배 후 尹 지지율이...\" 여론조사 결과"
+        },
+        {
+          "title": "'4혼' 71세 박영규, 아내와 나이차가...깜짝"
+        },
+        {
+          "title": "\"한도 초과\"..여성 의원에 쏟아진 후원금, 왜?"
+        }
+      ]
+    },
+    {
+      "id": "434d",
+      "pressName": "조선일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2020/0903/nsd185255316.png",
+      "editedTime": "04월 15일 09:43 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "\"전재수는 우리 동네 서민…아무리 센사람 와도 안돼\""
+      },
+      "sideNews": [
+        {
+          "title": "이천수 \"난 정치·左右 몰라…선거도 쿨하게 싸울 수 없나\""
+        },
+        {
+          "title": "새총리 후보에 이정현 거론…원희룡 비서실장 카드는 고심"
+        },
+        {
+          "title": "우즈 100번째 라운드 '감동의 꼴찌'"
+        },
+        {
+          "title": "여소야대… 24차례 尹민생토론회, 대부분 공수표된다"
+        },
+        {
+          "title": "野 당선자들, 벌써부터 \"의장은 중립 아냐\" \"사법부 통제\""
+        },
+        {
+          "title": "\"이거 참 좋더라\"… 7080 선배들이 알려주는 은퇴 로드맵"
+        }
+      ]
+    },
+    {
+      "id": "ffa6",
+      "pressName": "뉴데일리",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "사기대출 피의자, 섹스야설가가 공직자 … 이런 [묻지마 지지] 세상이 정상?"
+      },
+      "sideNews": [
+        {
+          "title": "'공직'의 도덕적 기준, 이리 무너져도 되는가"
+        },
+        {
+          "title": "'국회의장 중립 거부' '사법부 통제' … 국민은 이제 안중에 없나"
+        },
+        {
+          "title": "중동 리스크에 치솟는 유가·금값 … 글로벌 금리인하도 멈추나"
+        },
+        {
+          "title": "野의 전방위 稅 폭탄 불보듯 … 조세, 국가경쟁력 아닌 포퓰리즘 도구 전락할 판"
+        },
+        {
+          "title": "가자 인도로… 삼성·애플·마이크론 가세"
+        },
+        {
+          "title": "유류세 인하 6월까지 연장 … 휘발유 ℓ당 205원 인하 유지"
+        }
+      ]
+    },
+    {
+      "id": "9924",
+      "pressName": "메트로신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/961.png",
+      "editedTime": "04월 15일 08:42 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "'경영난' 빅5 병원, 의료기기 업체들에 \"가격 낮춰라\" 일방적 요구"
+      },
+      "sideNews": [
+        {
+          "title": "GTX-A 동탄 \"최대 수혜주\"…집값 20억 시대"
+        },
+        {
+          "title": "이번주 4번째 반감기…가격 상승 시동거나?"
+        },
+        {
+          "title": "SK하이닉스, 최고가 또 경신...'20만닉스' 코앞?"
+        },
+        {
+          "title": "여야 모두 공약한 'ISA 세제 혜택', 더 늘어난다…시장도 '기대'"
+        },
+        {
+          "title": "연금개혁 '보장강화' vs '재정안정'…'시민토론' 민심 어디로?"
+        },
+        {
+          "title": "정부, 이란-이스라엘 사태 예의주시...유가·환율 요동 치면 경제 '시계제로'"
+        }
+      ]
+    },
+    {
+      "id": "07f6",
+      "pressName": "일요신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/925.png",
+      "editedTime": "04월 14일 13:00 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "추-윤 전쟁 어게인? ‘여소거야’ 22대 국회에서 벌어질 일"
+      },
+      "sideNews": [
+        {
+          "title": "양문석 수사에 쏠린 눈…선거사범 2000명, 다시 검찰의 시간"
+        },
+        {
+          "title": "\"거점 항공사 돼야\" vs \"통합 LCC여야 산다\"…에어부산 분리매각 요구 엇갈린 시선"
+        },
+        {
+          "title": "2030세대 75% “국민연금 못 믿어”…보험료 인상에다 고갈 우려해"
+        },
+        {
+          "title": "쿠팡 월회비 인상 소식에 주가 폭등, 11% 넘게 올라…넷플릭스 주가처럼 뛸까"
+        },
+        {
+          "title": "중국 상품 만들다 배출된 일산화탄소, 한국 대기질 엉망으로 만들어…미국 연구팀 발표해"
+        },
+        {
+          "title": "불법 홀덤펍 무더기 적발…카드게임하는데 쓴 게임 칩을 현금으로 바꿔줘"
+        }
+      ]
+    },
+    {
+      "id": "c20a",
+      "pressName": "데일리안",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/368.png",
+      "editedTime": "04월 15일 09:46 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "윤석열, 국민과 언론 시키는 대로 하라"
+      },
+      "sideNews": [
+        {
+          "title": "[총선백서 ②] 원희룡, 계양을 소진은 전략적 미스였을까"
+        },
+        {
+          "title": "이재명, 동작을 7번 갔는데…나경원 승리 요인은 이것"
+        },
+        {
+          "title": "또 다시 국회 벽에 막힌 부동산 정책 무더기 [기자수첩-부동산]"
+        },
+        {
+          "title": "저축은행이 이 정도 적자에 흔들린다고?…여윳돈 7조 '굳건'"
+        },
+        {
+          "title": "“기대 접었다”…힘 빠진 재건축, 공급부족 ‘경고등’"
+        },
+        {
+          "title": "[단독] 주요 피자 브랜드 5곳 중 3곳 적자"
+        }
+      ]
+    },
+
+    {
+      "id": "90b2",
+      "pressName": "프레시안",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/002.png",
+      "editedTime": "04월 15일 09:27 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "\"수학여행 보름만에 돌아온 막둥이, 신던 슬리퍼 얼굴 묻고 통곡했어요\""
+      },
+      "sideNews": [
+        {
+          "title": "내부 갈등 수습한 의사들 \"의대 증원 원점 재논의가 의사 입장\""
+        },
+        {
+          "title": "조국, 尹 대통령에 \"만나자\"…대통령실 \"내부 정비 후에\""
+        },
+        {
+          "title": "예상 깬 이란 '직접 보복'…가자 전쟁 '미지의 영역'으로"
+        },
+        {
+          "title": "'입틀막' 계속? 선방위, MBC '김건희 명품백' 등 의혹 보도에 '법정제재' 돌입"
+        },
+        {
+          "title": "尹대통령 지지율, 일간 기준 총선 직후 20%대로 폭락"
+        },
+        {
+          "title": "신평, 대통령 두고 \"편집증적 집착에 빠진 무리에 사로잡히지 않을까 우려\""
+        }
+      ]
+    },
+    {
+      "id": "f8ca",
+      "pressName": "경향신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/032.png",
+      "editedTime": "04월 15일 09:58 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "조국 “‘데드덕’ 운명 윤 대통령···관심은 자신과 배우자 신변안전뿐”"
+      },
+      "sideNews": [
+        {
+          "title": "재점화된 ‘김건희 주가조작 의혹 조사’…대통령실·검찰 ‘균열’ 불씨 될까"
+        },
+        {
+          "title": "국민의힘 차기 당권은…비상 걸리니 눈에 들어오는 ‘비윤’ ‘30대’"
+        },
+        {
+          "title": "1호선 의왕~당정 구간서 인명 사고…전철 운행 차질"
+        },
+        {
+          "title": "“‘쥴리 보도’ 징계하려는 김백 사장, KBS 박민처럼 공포정치”"
+        },
+        {
+          "title": "윤 대통령 지지율 32.6%···“지난해 10월 이후 최저”[리얼미터]"
+        },
+        {
+          "title": "방치된 고통…참사 희생자의 아들은 왜 30년 뒤 감옥에 갇혔나"
+        }
+      ]
+    },
+    {
+      "id": "b884",
+      "pressName": "한국일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/038.png",
+      "editedTime": "04월 15일 09:47 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "\"당신 탓이 아냐\" 아내의 말에 남편은 10년만에 울음을 터뜨렸다"
+      },
+      "sideNews": [
+        {
+          "title": "尹 쇄신 시험대 '채 상병 특검'…민주 \"내달 2일 본회의 처리\""
+        },
+        {
+          "title": "서울시교육청, '현주엽 논란' 휘문고 오늘부터 고강도 감사"
+        },
+        {
+          "title": "임대2법 개편 나온다…세입자 '갱신계약 해지권' 폐지 가닥"
+        },
+        {
+          "title": "중국 인구 14억→5억 된다…한국 따라온 중국 저출생 대안"
+        },
+        {
+          "title": "'아이언돔'이 뭐길래 \"이란의 이스라엘 공격 99% 막았다\""
+        },
+        {
+          "title": "수도권 지하철 1호선 의왕~당정 사망사고 발생, 열차 운행 차질"
+        }
+      ]
+    },
+    {
+      "id": "0fb2",
+      "pressName": "헤럴드경제",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/016.png",
+      "editedTime": "04월 15일 09:25 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "생숙대란 피눈물 터지자 결국 바꾼다…복수용도 더 쉽게 한다[부동산360]"
+      },
+      "sideNews": [
+        {
+          "title": "이스라엘 대통령 “잔인한 공격, 마치 선전포고…이번 공격에는 대응 필요”"
+        },
+        {
+          "title": "“우산 챙기세요”… 전국 대체로 흐리고 비"
+        },
+        {
+          "title": "尹국정지지도 4.7%p 하락한 32.6%…작년 10월 이후 최저[리얼미터]"
+        },
+        {
+          "title": "재판받는 당선인만 스무명…대다수는 ‘검찰개혁’ 주장"
+        },
+        {
+          "title": "수도권 불패도 이제 옛말…7개월만에 '미분양관리지역' 나왔다 [부동산360]"
+        },
+        {
+          "title": "최고령 샴쌍둥이 62세로 사망…男커밍아웃에 ‘자매→남매’, 독립적 삶 살았다"
+        }
+      ]
+    },
+
+    {
+      "id": "2d40",
+      "pressName": "매일경제",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/009.png",
+      "editedTime": "04월 15일 09:55 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "“어떻게 살라고”…월급 40% 연금으로 내야한다는데"
+      },
+      "sideNews": [
+        {
+          "title": "[속보] 의왕~당정역 구간 인명사고…전철 1호선 운행 차질"
+        },
+        {
+          "title": "수리비 125만원…아이폰 박살낸 배우, 꼬리 내린 애플"
+        },
+        {
+          "title": "정부, 의정 브리핑 취소…전공의들, 복지부 차관 고소"
+        },
+        {
+          "title": "\"그 돈 주고 모닝·레이 사냐”더니…비쌀수록 ‘대박’"
+        },
+        {
+          "title": "내놔도 보러오는 사람 없네…결혼 앞둔 남자의 한숨"
+        },
+        {
+          "title": "“돌아오지 않는 의대생들”…개강에도 휴학 38명 늘어"
+        }
+      ]
+    },
+
+    {
+      "id": "d182",
+      "pressName": "한국경제",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/015.png",
+      "editedTime": "04월 15일 09:48 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "'24시간이 모자라'…대치동 유치원생의 숨가쁜 하루"
+      },
+      "sideNews": [
+        {
+          "title": "300억으로 4600억 벌었다…日 투자로 '잭팟'"
+        },
+        {
+          "title": "'100조 잭팟' 곧 터진다…LG경영진 '총출동' 이유"
+        },
+        {
+          "title": "한양대 갈 학생이 서울대 간다…떠들썩한 까닭"
+        },
+        {
+          "title": "재혼 후 사망한 남편, 유언장엔 한푼도 못 준다니"
+        },
+        {
+          "title": "\"700조 날렸는데\"…살벌한 경고에 주주들 '멘붕'"
+        },
+        {
+          "title": "'주4일 근무제' 될까?…인기 1위 공약에 관심 폭발"
+        }
+      ]
+    },
+
+    {
+      "id": "5f4c",
+      "pressName": "아시아경제",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/277.png",
+      "editedTime": "04월 15일 10:01 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "\"이스라엘, 이르면 15일 재보복\"…짙어지는 중동 전운"
+      },
+      "sideNews": [
+        {
+          "title": "\"대통령 변하지 않으면 '3년 너무 길다' 현실 될 수도\"[총선 분석 좌담회]"
+        },
+        {
+          "title": "비트코인 반감기 D-5…채굴 업계 연간 100억달러 손실 전망"
+        },
+        {
+          "title": "[양낙규의 Defence Club] 조용한 북 태양절… 군사도발 움직임은"
+        },
+        {
+          "title": "사기·빚투로 쌓아올렸다…명품도배 인플루언서의 민낯"
+        },
+        {
+          "title": "신분증 2번 확인하고, 철저한 안전 안내까지…인천항 가보니[세월호 10년]"
+        },
+        {
+          "title": "트럼프, 전직 美 대통령 최초 형사재판…트럼프 \"선거방해\""
+        }
+      ]
+    },
+
+    {
+      "id": "73b0",
+      "pressName": "동아일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/020.png",
+      "editedTime": "04월 15일 09:41 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "[단독]법률수석 신설 검토…‘민정수석 사실상 부활’ 관측"
+      },
+      "sideNews": [
+        {
+          "title": "[정용관 칼럼]국정 3대 족쇄부터 尹 스스로 풀라"
+        },
+        {
+          "title": "원희룡 거론되던 비서실장, ‘쓴소리할 인물’ 정진석 등도 검토"
+        },
+        {
+          "title": "[단독]파주 투신 남성 2명, 메신저로 살인 공모…“돈 갈취하려 살해 가능성”"
+        },
+        {
+          "title": "길가다 날아온 신발에 80대 얼굴 찢어져…가해자 추적"
+        },
+        {
+          "title": "대구의 60년 전통 전구회사, 뉴욕에 진출하다 [BreakFirst]"
+        },
+        {
+          "title": "소화, 혈당 조절에 좋은 ‘진짜 사과식초’ 찾는 법"
+        }
+      ]
+    },
+    {
+      "id": "a4b9",
+      "pressName": "서울경제",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2019/logo/011.png",
+      "editedTime": "04월 15일 09:57 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "최상목 \"유류세 인하 조치·유가연동보조금 2개월 추가연장\""
+      },
+      "sideNews": [
+        {
+          "title": "尹지지율, 작년 10월 이후 최저…4.7%p 하락한 32.6%[리얼미터]"
+        },
+        {
+          "title": "'이스라엘이 이긴 싸움' 강조한 美 \"우리의 목표는 긴장 완화\""
+        },
+        {
+          "title": "동탄·성남·하남도 제쳤다…수도권 집값 상승률 1위는 '이곳'"
+        },
+        {
+          "title": "17년만에 불붙은 연금개혁 논의 …“미래세대 위한 개혁 해내야”"
+        },
+        {
+          "title": "지출은 해야하는데 세입은 빠듯…정부, '한은 마통' 32.5조 썼다"
+        },
+        {
+          "title": "경찰 출신 '금배지' 역대 최다…경찰대 1기만 3명"
+        }
+      ]
+    },
+    {
+      "id": "7ee7",
+      "pressName": "노컷뉴스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/079.png",
+      "editedTime": "04월 15일 09:51 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "野, '채상병 특검' 대여공세···與 대응책 '고심'"
+      },
+      "sideNews": [
+        {
+          "title": "尹, 총선패배 입장 신중검토···인선도 '숙고'"
+        },
+        {
+          "title": "[인터뷰]이스라엘 교민 \"폭죽인 줄···미사일 20발 퍼부어\""
+        },
+        {
+          "title": "[속보]\"유류세 인하·유가연동보조금 2개월 연장\""
+        },
+        {
+          "title": "[기획]세월호 유가족 '우울증위험군'···의료비지원 끊겨"
+        },
+        {
+          "title": "인구감소지역 4억 별장에 '1주택자 특혜'"
+        },
+        {
+          "title": "1호선 의왕~당정역 구간서 사망사고···\"운행 재개\""
+        }
+      ]
+    },
+    {
+      "id": "31e5",
+      "pressName": "이데일리",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/018.png",
+      "editedTime": "04월 15일 09:43 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "[환율 1380원 돌파]\"유가 뛰면, 1400원까지 열어둬야\""
+      },
+      "sideNews": [
+        {
+          "title": "\"이스라엘, 이르면 15일 이란공격에 대응 전망\" 긴장 고조"
+        },
+        {
+          "title": "알테무에 먹힐라…술 해외직구 시대인데, 韓 온라인 판매 금지"
+        },
+        {
+          "title": "골반 수영복 입고 경기?…난리난 美육상팀 경기복"
+        },
+        {
+          "title": "\"왜 끼어들어!\"…운전자 폭행한 40대 벌금 250만원"
+        },
+        {
+          "title": "'4번 결혼' 박영규 \"25살 연하 아내와 2세?…子 먼저 떠난 충격 아직\""
+        },
+        {
+          "title": "침대 위 살해된 母子…증거가 가리키는 ‘단 한 사람’ [그해 오늘]"
+        }
+      ]
+    },
+    {
+      "id": "68c1",
+      "pressName": "톱데일리",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2022/0817/nsd14491516.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "'유동성 압박' 효성화학, '특수가스 매각'으로 숨통 트일까"
+      },
+      "sideNews": [
+        {
+          "title": "윤상현號 CJ ENM, '티빙 부진' 여파 탈출 과제"
+        },
+        {
+          "title": "전동화로 힘 받던 현대모비스, 수요 위축에 발목 잡힐까"
+        },
+        {
+          "title": "[MG손보 M&A] 세 차례 시도 끝 예비입찰 2곳 참여"
+        },
+        {
+          "title": "미래에셋자산운용, 연금동행 펀드 시리즈 총 순자산 500억 돌파"
+        },
+        {
+          "title": "[이커머스 전국시대] C이커머스 공세에 K이커머스 ‘동분서주’"
+        },
+        {
+          "title": "[이노그리드 IPO] 오버행 이슈 극복할까"
+        }
+      ]
+    },
+    {
+      "id": "4102",
+      "pressName": "뉴스타파",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/930.png",
+      "editedTime": "04월 15일 09:55 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "[자유언론실천선언 50년④] 동아·조선 없는 세상에서 살고 싶다"
+      },
+      "sideNews": [
+        {
+          "title": "조국혁신당에 누가 표를 주었나? 광주서 최다, 경북서 최소 득표"
+        },
+        {
+          "title": "[주간 뉴스타파] ‘2024 위기의 한반도’ 1부 <김정은의 헤어질 결심?>"
+        },
+        {
+          "title": "청년·여성 당선자 미미한 증가...국회 다양성 과제 여전"
+        },
+        {
+          "title": "[현장에서] 다양성 '최악' 앞둔 22대 국회... 국회의원은 '능력'만 있으면 된다?"
+        },
+        {
+          "title": "[변화] 미 수사당국, 바트볼드 전 몽골 총리 뉴욕 호화 부동산 몰수소송"
+        },
+        {
+          "title": "<22대 총선 후보 검증> '공직자 신고' 때와 재산 달라진 총선 후보 15명"
+        }
+      ]
+    },
+    {
+      "id": "f7b4",
+      "pressName": "중앙일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2021/0824/nsd115034872.png",
+      "editedTime": "04월 15일 09:43 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "與 \"영남 자민련 됐다\" 한숨…지역구 90석 중 59석"
+      },
+      "sideNews": [
+        {
+          "title": "'60대의 몸' 92세 이길여…딱 하나 깐깐하게 보는 것"
+        },
+        {
+          "title": "1초만에 '밤양갱 귀 따기'…손열음 놀라운 영상"
+        },
+        {
+          "title": "'질척대지 말고 나가라'…김경율 \"진작 그만뒀는데\""
+        },
+        {
+          "title": "\"원희룡에 계양을 오지 말라고\" 이천수가 밝힌 뒷얘기"
+        },
+        {
+          "title": "인구감소지역 4억 이하 '세컨드 홈' 사면 1주택자 혜택"
+        },
+        {
+          "title": "검사에 우산 던지며 \"죽인다\"…법정 난동 50대의 착각"
+        }
+      ]
+    },
+    {
+      "id": "f3e4",
+      "pressName": "국민일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/005.png",
+      "editedTime": "04월 15일 09:58 직접 편집",
+      "category": "종합/경제",
+      "headline": {
+        "title": "“이스라엘, 이란에 이르면 15일 대응 예상” WSJ 보도"
+      },
+      "sideNews": [
+        {
+          "title": "열 번째의 봄, 살아남은 이들이 짊어진 ‘세월호’의 무게"
+        },
+        {
+          "title": "“그 여자 누구냐”… 아이돌에 26억 뜯은 방송작가"
+        },
+        {
+          "title": "[속보] 정부 “대입 일정 촉박… 의료개혁 의지 변함없어”"
+        },
+        {
+          "title": "‘푸바오 잘있지?’ 뒷산 올라가 찰칵…中사생팬 생겼다"
+        },
+        {
+          "title": "‘홍대서 신발 날벼락’ 80대 할머니 피투성이… 추적중"
+        },
+        {
+          "title": "웬 골반 수영복…“여자만 왜” 난리난 美육상팀 경기복"
+        }
+      ]
+    },
+    {
+      "id": "e0cf",
+      "pressName": "TBS",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/981.png",
+      "editedTime": "04월 15일 10:02 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "'농축산물 가격안정자금 무제한 투입' 시민 반응은?...\"그나마 안정\""
+      },
+      "sideNews": [
+        {
+          "title": "서울도 민주 압승…시민이 바라는 22대 국회는?"
+        },
+        {
+          "title": "쓰레기 된 '선거 현수막', 재활용도 한계…\"아예 안 쓰면?\""
+        },
+        {
+          "title": "인천 해사전문법원 유치 총력전…상황 어떻길래?"
+        },
+        {
+          "title": "탄소중립을 위한 인천의 '신바람'…풀어야 할 3가지 '과제' [지구본T]"
+        },
+        {
+          "title": "의왕~당정역 구간서 인명사고…전철 1호선 운행 차질"
+        },
+        {
+          "title": "정부, 의정갈등에 '묵묵부답'…중대본 브리핑 돌연 취소"
+        }
+      ]
+    },
+    {
+      "id": "df90",
+      "pressName": "머니투데이방송",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2021/0420/nsd105139164.png",
+      "editedTime": "04월 15일 09:43 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "최상목 부총리 \"유류세 인하, 6월말까지 추가 연장\""
+      },
+      "sideNews": [
+        {
+          "title": "흔들리는 '기업 밸류업 프로그램'…저PBR주 전망도 엇갈려"
+        },
+        {
+          "title": "김주현 금융위원장 \"중동사태, 과도한 우려 불필요\""
+        },
+        {
+          "title": "국토부, GTX-D·E·F 구축 본격화 채비… 민간과 머리 맞댄다"
+        },
+        {
+          "title": "공정위, 대리점에 갑질한 한샘·퍼시스·에넥스에 시정명령"
+        },
+        {
+          "title": "지난해 자동차보험 손해율 개선…\"가입 대수 증가 영향\""
+        },
+        {
+          "title": "의협 비대위, 내부 봉합 나섰다…\"임현택 당선인과 마음 맞추겠다\""
+        }
+      ]
+    },
+    {
+      "id": "307b",
+      "pressName": "SBS Biz",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2020/1229/nsd165811867.png",
+      "editedTime": "04월 15일 08:59 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "'아빠차' 연두색 번호판 직격탄…등록대수 31.4%↓"
+      },
+      "sideNews": [
+        {
+          "title": "국민연금 남녀 격차 심각하다…장기수급자 6배 차이"
+        },
+        {
+          "title": "'집값' 때문에 떠나고 '교육' 때문에 서울 온다"
+        },
+        {
+          "title": "美 의약품 부족 사태, 남의 일 아니다…한국도 영향권"
+        },
+        {
+          "title": "보험료 계속 오를까 봐…2030 75% \"국민연금 못 믿겠다\""
+        },
+        {
+          "title": "WSJ \"미국·서방, '이스라엘 이르면 15일 대응' 예상\""
+        },
+        {
+          "title": "'한은 마통' 32.5조원 끌어 썼다"
+        }
+      ]
+    },
+    {
+      "id": "79d1",
+      "pressName": "뉴스1",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2024/0229/nsd103734195.png",
+      "editedTime": "04월 15일 09:53 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "WSJ \"이스라엘, 이르면 15일 이란에 보복\""
+      },
+      "sideNews": [
+        {
+          "title": "尹 지지율 32.6%, 4.7%p↓…작년 10월이후 최저"
+        },
+        {
+          "title": "정부 \"의료개혁 의지 변함없어…의료계 대화를\""
+        },
+        {
+          "title": "\"유류세 인하 6월까지\" 휘발유 205원 인하 효과"
+        },
+        {
+          "title": "\"의사 없다\" 유공자 유족 수술 거절 보훈병원"
+        },
+        {
+          "title": "\"푸바오 다시 데려와주세요\" 요청에 서울시 난감"
+        },
+        {
+          "title": "다방 여종업원 목 긋고 사체에 욕정 푼 연쇄살인마"
+        }
+      ]
+    },
+    {
+      "id": "747a",
+      "pressName": "KNN",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/906.png",
+      "editedTime": "04월 14일 20:45 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "봄나들이 무색한 4월 초여름 날씨 \"덥다더워\""
+      },
+      "sideNews": [
+        {
+          "title": "이름만 '푸른도시국'...환경보다 개발?"
+        },
+        {
+          "title": "산업은행 이전 효과 곳곳에서 나타나나?"
+        },
+        {
+          "title": "2024 기후산업국제박람회 9월 부산서 IEA와 공동 개최"
+        },
+        {
+          "title": "부산서 담배꽁초 추정 공장화재 발생"
+        },
+        {
+          "title": "내일~모레 아침 많은 비..낮 기온 뚝↓, 해안 강풍 주의"
+        },
+        {
+          "title": "체감물가 고공행진, 서민 부담 심각"
+        }
+      ]
+    },
+    {
+      "id": "b86c",
+      "pressName": "TJB대전방송",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2023/0103/nsd95227559.png",
+      "editedTime": "04월 15일 08:00 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "(R)\"힘차게 당겨라\"..당진 기지시줄다리기"
+      },
+      "sideNews": [
+        {
+          "title": "(R) '날아간 전원생활의 꿈'..'집 앞 도로'마저 빼앗겨"
+        },
+        {
+          "title": "(R) '하얀 배꽃의 향연'..배꽃 인공 수분 비상"
+        },
+        {
+          "title": "(R) 초여름 날씨에도 야구장 매진행렬..수목원 그늘로 피서행"
+        },
+        {
+          "title": "충남도, 중장년 근로자 정신건강 관리 확대 지원"
+        },
+        {
+          "title": "대전시, 정원진흥계획 \"2028년까지 정원시설 450곳으로\""
+        },
+        {
+          "title": "보령서 레저보트 암초에 부딪혀..해루질객 밀물에 고립"
+        }
+      ]
+    },
+    {
+      "id": "dcd7",
+      "pressName": "YTN사이언스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2020/0922/nsd152336602.png",
+      "editedTime": "04월 15일 09:55 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "AI와 천 명의 대결!...위험한 답·  틀린  답· 모순 답을 찾아라!"
+      },
+      "sideNews": [
+        {
+          "title": "지구 온도 10개월 연속 최고...\"미지의 재앙 맞이할 수도\""
+        },
+        {
+          "title": "러, 우크라 발전소 대규모 공습...IAEA '원전 불장난' 긴급회의"
+        },
+        {
+          "title": "방사성 오염수에 얼음 형태 형성해 깨끗한 물 회수"
+        },
+        {
+          "title": "교통사고 사망자 역대 최저...\"국제적 수준 못 미쳐\""
+        },
+        {
+          "title": "과천과학관, '보이지 않는 우주' 기획 전시 19일 개막"
+        },
+        {
+          "title": "프랑스 '비건 제품에 동물성 용어 금지'...법원서 효력 정지"
+        }
+      ]
+    },
+    {
+      "id": "e182",
+      "pressName": "OBS",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/340.png",
+      "editedTime": "04월 15일 09:40 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "\"이스라엘, 이란 공격에 이르면 15일 대응 예상"
+      },
+      "sideNews": [
+        {
+          "title": "\"안전한 나라 염원\"…세월호 10주기 앞두고 추모 행사"
+        },
+        {
+          "title": "인천 근대문화유산 문화공간으로 탈바꿈"
+        },
+        {
+          "title": "인천시, 전세사기 예방 등 부동산 교육 추진"
+        },
+        {
+          "title": "윤 대통령 \"유가·공급망 관리시스템 가동\""
+        },
+        {
+          "title": "야 \"'채 상병 특검'은 총선 민심\"…여 '곤혹'"
+        },
+        {
+          "title": "총선 후 첫 의협 비대위 회의…\"단일대오\""
+        }
+      ]
+    },
+    {
+      "id": "efed",
+      "pressName": "TV조선",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/902.png",
+      "editedTime": "04월 15일 09:45 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "5시간 공습 막아낸 '방공망' 위력…\"드론·미사일 99% 요격\""
+      },
+      "sideNews": [
+        {
+          "title": "尹, 총리·비서실장 인선 고심…입장표명도 늦춰질 듯"
+        },
+        {
+          "title": "코스피, 중동 긴장에 1%대 급락 2,640대…코스닥 2%↓"
+        },
+        {
+          "title": "與, 오늘 중진·내일 당선인과 '총선 이후' 수습책 논의"
+        },
+        {
+          "title": "아들에게 징역 구형하자 법정에서 \"죽여버리겠다\""
+        },
+        {
+          "title": "국민연금 월평균 노령연금액, 男 75만6천원·女 39만원"
+        },
+        {
+          "title": "美 트럼프 형사재판 이번주 시작…\"지상 최대 재판쇼 벌어질 수도\""
+        }
+      ]
+    },
+    {
+      "id": "9520",
+      "pressName": "연합뉴스TV",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/422.png",
+      "editedTime": "04월 15일 09:55 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "[현장연결] 정부 \"의료개혁 4대 과제 사회적 공론화 위해 연속토론회 개최\""
+      },
+      "sideNews": [
+        {
+          "title": "이스라엘, 재보복 나설까…\"보복 철회\"-\"곧 대응\" 엇갈려"
+        },
+        {
+          "title": "윤대통령, 후임 비서실장 인선 고심…이번주 발표 전망"
+        },
+        {
+          "title": "수습책 놓고 엇갈리는 국민의힘…이번 주 분수령"
+        },
+        {
+          "title": "세월호 참사 10년…시스템 개선에도 갈 길 먼 재난 대응"
+        },
+        {
+          "title": "청주 오송 아파트단지 등 수도서 혼탁수…주민 불편"
+        },
+        {
+          "title": "'이슬람혁명' 이후 틀어진 이란 - 이스라엘…수십 년 갈등 터졌나"
+        }
+      ]
+    },
+    {
+      "id": "0ef8",
+      "pressName": "한국경제TV",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/215.png",
+      "editedTime": "04월 15일 09:51 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "87달러 돌파한 국제유가…정유株 '급등'"
+      },
+      "sideNews": [
+        {
+          "title": "\"44억 원 규모 자사주 취득\"…상한가 직행"
+        },
+        {
+          "title": "\"증시 하락은 매수 기회\"...톰 리, 올해 S&P500 5,700 제시"
+        },
+        {
+          "title": "연두색 효과 '톡톡'…수입 법인차 결국"
+        },
+        {
+          "title": "\"돈나무언니 비트코인 전망에 동의\"...부자아빠 기요사키 지원 사격"
+        },
+        {
+          "title": "\"국지적 충돌시 공급망 충격 없을 것…저가 매수 기회\""
+        },
+        {
+          "title": "비철금속주 왜 오르지?...러시아 추가제재 후폭풍"
+        }
+      ]
+    },
+    {
+      "id": "9a17",
+      "pressName": "KBS",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/056.png",
+      "editedTime": "04월 15일 09:54 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "정부 ‘통일된 대안’ 거듭 요청…의료계 갈등 봉합"
+      },
+      "sideNews": [
+        {
+          "title": "최상목 “유류세 인하·유가연동보조금 2개월 연장”"
+        },
+        {
+          "title": "경부선 의왕역서 사망 사고…한때 열차 지연"
+        },
+        {
+          "title": "“미·서방, ‘이스라엘, 이란 공격에 이르면 15일 대응’ 예상”"
+        },
+        {
+          "title": "미국 “확전 원치 않아”…“반격 시 지원 안 할 것”"
+        },
+        {
+          "title": "“경기지사 선거 사전투표 조작” 주장에…대법 “부정선거 아니다”"
+        },
+        {
+          "title": "전국에 비…서해안·남해안·제주에 강풍"
+        }
+      ]
+    },
+    {
+      "id": "7e30",
+      "pressName": "MBN",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/057.png",
+      "editedTime": "04월 15일 09:55 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "국민의 힘, 중진 당선인 간담회…'총선 참패 수습책' 모색"
+      },
+      "sideNews": [
+        {
+          "title": "박지원 \"그 밥에 그 나물 성공하겠냐\""
+        },
+        {
+          "title": "1호선 의왕~당정역 구간 인명사고…운행 차질"
+        },
+        {
+          "title": "서울 전입 '역대급'...'이것' 때문에 몰린다"
+        },
+        {
+          "title": "한밤중 고속도로 서있던 40대, 차에 치여 사망"
+        },
+        {
+          "title": "\"응급실서 2살 아이, 뇌 손상으로 장애\""
+        },
+        {
+          "title": "대구 도심서 멧돼지 2마리 출몰"
+        }
+      ]
+    },
+    {
+      "id": "1634",
+      "pressName": "JTBC",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/904.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "이스라엘 대통령 \"전쟁 원치 않지만, 대응은 해야\""
+      },
+      "sideNews": [
+        {
+          "title": "\"이란, 이스라엘 본토 5시간 때려\" 유엔 안보리 긴급회의"
+        },
+        {
+          "title": "버려진 세월호 현수막…\"누군가 줄 끊어 훼손\" 공분"
+        },
+        {
+          "title": "민주 '채 상병 특검' 압박…국힘 4선 이상 당선인 모인다"
+        },
+        {
+          "title": "철원 비무장지대 산불 진화…건조한 날씨 속 곳곳 화재"
+        },
+        {
+          "title": "\"햄 빼는 데 2천원 더?\" 항의에…'손님 저격' 나선 사장"
+        },
+        {
+          "title": "'압구정 롤스로이스남' 항소심 혐의 일부 부인…유족 “파렴치범 용서 못 해”"
+        }
+      ]
+    },
+    {
+      "id": "d8c4",
+      "pressName": "YTN",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/052.png",
+      "editedTime": "04월 15일 09:53 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "[현장영상+] \"유류세 인하 조치·경유 보조금 등 6월 말까지 두 달 연장\""
+      },
+      "sideNews": [
+        {
+          "title": "바이든-네타냐후 '밀당' … 이란 \"반격 없으면 공격 안 해\""
+        },
+        {
+          "title": "이란, 이스라엘 공격 여파…우리 증시 상황은?"
+        },
+        {
+          "title": "문화로 승화한 세월호 10주기…\"계속해서 기억되길\""
+        },
+        {
+          "title": "연두색 번호판 효과 좋네… 수입차 법인 구매 비중 '뚝'"
+        },
+        {
+          "title": "美 올림픽 경기복 논란 \"여자는 수영복 입고 육상 경기하라고?\""
+        },
+        {
+          "title": "수도권 1호선 의왕역∼당정역 사망 사고…출근길 차질"
+        }
+      ]
+    },
+    {
+      "id": "27e7",
+      "pressName": "Arirang TV",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/934.png",
+      "editedTime": "04월 12일 23:06 직접 편집",
+      "category": "방송/통신",
+      "headline": {
+        "title": "BOK holds interest rate at 3.5% for tenth consecutive time"
+      },
+      "sideNews": [
+        {
+          "title": "S. Korean Nat'l Assembly in full preparation mode to welcome new lawmakers"
+        },
+        {
+          "title": "S. Korea, U.S., Japan stage maritime drill to boost response capabilities amid N. Korean threats"
+        },
+        {
+          "title": "BOK holds interest rate at 3.5% for tenth consecutive time"
+        },
+        {
+          "title": "S. Korea sees smallest y/y job growth in more than 3 years in March"
+        },
+        {
+          "title": "S. Korea's 22nd Nat'l Assembly set for launch on May 30"
+        },
+        {
+          "title": "Yoon to deliver message as early as next week regarding General Election defeat"
+        }
+      ]
+    },
+    {
+      "id": "f1d1",
+      "pressName": "IT동아",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/818.png",
+      "editedTime": "04월 12일 23:47 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "“전통주 번개배송은 새로운 경험의 시작이 될 것” 박준형 술담화 CSO"
+      },
+      "sideNews": [
+        {
+          "title": "[IT강의실] 720p, HD, 1080p, FHD? OTT 요금제 고르기 전 알아야 할 용어"
+        },
+        {
+          "title": "[생성 AI 길라잡이] 애플이 만들 인공지능 서비스, 어떤 모습일까?"
+        },
+        {
+          "title": "2024년은 온디바이스 AI 시대, 왜 'AI PC'는 지금 주목받나?"
+        },
+        {
+          "title": "‘낭만국시’ 우승완 공동대표 “춘천 원도심 상권르네상스로 스마트 비즈니스 발돋움”"
+        },
+        {
+          "title": "[인터뷰] 유니버설 로봇 “글로벌 1위 협동로봇 앞세워 韓 시장 공략”"
+        },
+        {
+          "title": "영상 촬영의 세계를 넓혀주는 파트너, DJI RS 4"
+        }
+      ]
+    },
+    {
+      "id": "64ac",
+      "pressName": "헬로디디",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/977.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "\"단군이래 글로벌 원천기술 개가\"직교복소확산변조방식, CDMA 국제표준이 되다"
+      },
+      "sideNews": [
+        {
+          "title": "방사성 오염수 얼려서 담수화한다"
+        },
+        {
+          "title": "'미생물 식품'으로 미래 인류 식량난 해결한다"
+        },
+        {
+          "title": "과학과 예술의 만남, KIST 'Artist View of Science'"
+        },
+        {
+          "title": "\"내일도 해가 뜰까?\" 비트겐슈타인, '과학적 인과율'을 회의하다"
+        },
+        {
+          "title": "[인사]과기정통부·과기공제회·원자력의학원"
+        },
+        {
+          "title": "\"R&D 예산, 규모 보다 지속성·안정성 중요\""
+        }
+      ]
+    },
+    {
+      "id": "59b5",
+      "pressName": "AI타임스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2021/1112/nsd102040597.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "머스크의 xAI, 멀티모달모델 첫 출시...\"AGI 구축의 중요한 단계\""
+      },
+      "sideNews": [
+        {
+          "title": "2024년 가장 많이 사용되는 AI 플랫폼 20개는"
+        },
+        {
+          "title": "핑크 플로이드 팬 비디오 대회서 생성 AI 작품 수상...\"기계가 인간 노력 짓밟아\" 비난 쇄도"
+        },
+        {
+          "title": "오픈AI, 'GPT-4 터보' 대폭 업그레이드...\"클로드3·제미나이 성능 뛰어 넘어\" "
+        },
+        {
+          "title": "'닭 튀기는 AI 로봇' 미국서 등장...\"튀기고 양념하고 포장까지\""
+        },
+        {
+          "title": "CPU·GPU 워크로드 동시 처리하는 RISC-V 설계 등장...\"오픈 소스 궁극의 칩 가능성\" "
+        },
+        {
+          "title": "메타가 공개한 AGI로 가는 방법, 'V-제파'란"
+        }
+      ]
+    },
+    {
+      "id": "02e8",
+      "pressName": "IT조선",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/917.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "공격적 투자하거나 수익성 집중… 토종 OTT 적자 탈출 전략"
+      },
+      "sideNews": [
+        {
+          "title": "갤럭시 AI로 ‘헬스케어’… ‘웨어러블’ 공들이는 삼성전자"
+        },
+        {
+          "title": "무기한 연기된 써클차트 뮤직 어워즈 ①"
+        },
+        {
+          "title": "AI 생태계 재정비 나서는 ‘구글·인텔·메타’"
+        },
+        {
+          "title": "쿠팡 주가 10% 넘게 급등… 와우 멤버십 7890원 인상 영향"
+        },
+        {
+          "title": "日, 구글·애플 독점 규제 법안 마련… “매출 20% 과징금 부과”"
+        },
+        {
+          "title": "2년 쓴 갤럭시S22도 AI 폰으로… 5월 초 업데이트 예정"
+        }
+      ]
+    },
+    {
+      "id": "0480",
+      "pressName": "디지털데일리",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/138.png",
+      "editedTime": "04월 14일 12:38 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "[IT클로즈업] 쿠팡은 왜 멤버십 요금을 올릴 수밖에 없었나"
+      },
+      "sideNews": [
+        {
+          "title": "'수리 할 권리' 확대하는 스마트폰 업계"
+        },
+        {
+          "title": "[툰설툰설] 설레기만 한 봄이 지겹다면…나의 계절 VS 청춘 블라썸"
+        },
+        {
+          "title": "[박대리보고서] 1분기 위기 온 K-배터리…상반기 IPO에 나선 강소기업들"
+        },
+        {
+          "title": "[반차장보고서] 尹 '반도체 메가 클러스터' 규제 혁파…인텔, 가우디3 AI 가속기 '反엔비디아' 첨병"
+        },
+        {
+          "title": "[취재수첩] 인공적인 탄생, 지능적인 공격"
+        },
+        {
+          "title": "[OTT레이더] \"기생수, 게 섯거라\"…디즈니+, '지배종' 출격"
+        }
+      ]
+    },
+    {
+      "id": "a197",
+      "pressName": "블로터",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/293.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "영풍·고려아연 '신주발행무효 소송'...KL파트너스 vs 김앤장 승부 [넘버스]"
+      },
+      "sideNews": [
+        {
+          "title": "[CFO 리포트] 오케이금융 최윤의 꿈과 다모클레스의 칼"
+        },
+        {
+          "title": "美 연착륙 기대 확산…WSJ \"경제학자 경기침체 확률 2년 만에 최저\""
+        },
+        {
+          "title": "BNP파리바카디프생명에 변화 일으키는 한국인 CEO"
+        },
+        {
+          "title": "유가 급등 우려…이스라엘 보복 수위가 관건"
+        },
+        {
+          "title": "와인처럼 진한 우정, 도멘 니콜라스제이 “사랑과 우정을 오래 지켜온 이들에게” [주류인사이드]"
+        },
+        {
+          "title": "'버티컬 패션 플랫폼'의 새로운 생존 전략은?"
+        }
+      ]
+    },
+    {
+      "id": "3608",
+      "pressName": "디지털타임스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/029.png",
+      "editedTime": "04월 15일 09:30 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "[기획] 중동위기까지… 韓경제 `살얼음판`"
+      },
+      "sideNews": [
+        {
+          "title": "낙천·낙선자들 `공공기관장 낙하산 임명` 이어지나"
+        },
+        {
+          "title": "이스라엘, 이란 공격에 이르면 15일 대응...미국과 서방 예상"
+        },
+        {
+          "title": "尹대통령 지지율 4.7%p 하락한 32.6%, 일간 최저치 28.2% 경신"
+        },
+        {
+          "title": "의왕~당정역 구간 인명사고 1명 사망…전철 1호선 운행 차질"
+        },
+        {
+          "title": "커피값 또 오르겠네...기후변화 따른 생산 감소로 국제 가격 급등"
+        },
+        {
+          "title": "[속보] 정부 \"의료계 대화 나서달라…의료개혁 의지 변함없어\""
+        }
+      ]
+    },
+    {
+      "id": "4711",
+      "pressName": "디지털투데이",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/953.png",
+      "editedTime": "04월 15일 09:00 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "지스케일러부터 위즈까지...유력 보안 회사들 M&A 공격모드"
+      },
+      "sideNews": [
+        {
+          "title": "더 웨더 컴퍼니, AI 기반 날씨 정보 도구 '릴스피어' 선봬"
+        },
+        {
+          "title": "애플, 올해 말부터 M4 탑재된 맥북 선봬…AI 지원할까"
+        },
+        {
+          "title": "비트코인 최다 보유국 엘살바도르 아닌 '이 나라'"
+        },
+        {
+          "title": "구글 픽셀8a 렌더링 이미지 유출…색상은 4가지"
+        },
+        {
+          "title": "블랙록 CEO \"AI 기술 투자는 근로자 임금 인상으로 이어질 것\""
+        },
+        {
+          "title": "네이버-카카오 1분기 성적표는?...광고·커머스 호조에 선방 전망"
+        }
+      ]
+    },
+    {
+      "id": "c966",
+      "pressName": "전자신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/030.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "흑연없는 '퓨어실리콘 배터리' 내년 상용화"
+      },
+      "sideNews": [
+        {
+          "title": "한반도 상공 지나는 스타링크 감시할 전용시스템 만든다"
+        },
+        {
+          "title": "조국혁신당, 오늘 文 예방…이틀간 당선자 워크숍"
+        },
+        {
+          "title": "뷔르트 일렉트로닉스 “단순 부품 공급 넘어 수준 높은 기술 지원”"
+        },
+        {
+          "title": "롯데이노베이트-코오롱베니트, AI 사업 협력"
+        },
+        {
+          "title": "[사이언스 인 미디어] 타임슬립으로 다시 쓰는 성공기 '상남자'"
+        },
+        {
+          "title": "인성정보, 헬스케어·IT매니지드 신사업으로 미래 선점"
+        }
+      ]
+    },
+    {
+      "id": "2664",
+      "pressName": "보안뉴스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/952.png",
+      "editedTime": "04월 14일 23:31 직접 편집",
+      "category": "IT",
+      "headline": {
+        "title": "메모리 안전 언어로 떠오르는 러스트의 라이브러리에서 위험한 오류 발견돼"
+      },
+      "sideNews": [
+        {
+          "title": "[퀴즈 이·보·소] 거듭되는 취약점에 대표가 나서 보안 강화를 약속한 회사는?"
+        },
+        {
+          "title": "북한이 최근 사용하는 공격 전략, 조만간 마이터 서브테크닉에 추가된다"
+        },
+        {
+          "title": "카카오는 AI Safety 위해 어떻게 하고 있을까"
+        },
+        {
+          "title": "2024년 3월 랜섬웨어 공격 사례 집계해보니... 록빗과 플레이로 가장 큰 피해"
+        },
+        {
+          "title": "주식투자 정보사이트 ‘아이투자’, 해킹으로 13만여건 개인정보 털렸다"
+        },
+        {
+          "title": "오래된 레디스 서버를 악용하는 공격자들, 메타스플로잇 미터프리터 심어"
+        }
+      ]
+    },
+    {
+      "id": "5c20",
+      "pressName": "코리아헤럴드",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/044.png",
+      "editedTime": "04월 14일 18:20 직접 편집",
+      "category": "영자지",
+      "headline": {
+        "title": "Opposition victory upends ruling party's plans"
+      },
+      "sideNews": [
+        {
+          "title": "Iran launches drone attack on Israel"
+        },
+        {
+          "title": "S. Korea ups guard against economic impact from Middle East conflict"
+        },
+        {
+          "title": "Why don’t trainee doctors, medical professors see eye-to-eye?"
+        },
+        {
+          "title": "Korean steel companies' earnings expected to dip in Q1"
+        },
+        {
+          "title": "Taking risk or targeting global fans? Netflix pushes ahead with 'Goodbye Earth' release"
+        },
+        {
+          "title": "Ateez incorporates traditional Korean elements into Coachella performance"
+        }
+      ]
+    },
+    {
+      "id": "2190",
+      "pressName": "코리아타임스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/040.png",
+      "editedTime": "04월 15일 09:55 직접 편집",
+      "category": "영자지",
+      "headline": {
+        "title": "US works to prevent escalation across the Mideast as Biden pushes Israel to show restraint"
+      },
+      "sideNews": [
+        {
+          "title": "Financial regulator vows to actively cope with market volatility if needed"
+        },
+        {
+          "title": "NK leader's meeting with China's top legislator raises Kim-Xi summit possibility"
+        },
+        {
+          "title": "Ruling party-driven 'Mega Seoul' plan faces uncertainty"
+        },
+        {
+          "title": "Yoon contemplates replacements for key aides following election defeat"
+        },
+        {
+          "title": "Yoon's approval rating drops to lowest point since October"
+        },
+        {
+          "title": "Korea's total ODA exceeds $3 bil. in 2023"
+        }
+      ]
+    },
+    {
+      "id": "a396",
+      "pressName": "중앙데일리",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/330.png",
+      "editedTime": "04월 14일 18:54 직접 편집",
+      "category": "영자지",
+      "headline": {
+        "title": "Gov't to monitor economic fallout in wake of Iran's attack on Israel"
+      },
+      "sideNews": [
+        {
+          "title": "Cho Kuk calls for talks with Yoon as president mulls next move"
+        },
+        {
+          "title": "Rainfall to sweep through country, cool off untimely weather"
+        },
+        {
+          "title": "Jamsil Stadium adopts reusable containers"
+        },
+        {
+          "title": "South Korean gov't to strengthen monitoring of economic fallout in wake of Iran's attack on Israel"
+        },
+        {
+          "title": "Rainfall to sweep through country, cool off untimely weather"
+        },
+        {
+          "title": "[VIDEO] Kai Havertz looks sharp before massive clash against Aston Villa"
+        }
+      ]
+    },
+    {
+      "id": "953a",
+      "pressName": "KBS World",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/326.png",
+      "editedTime": "04월 15일 09:49 직접 편집",
+      "category": "영자지",
+      "headline": {
+        "title": "Yoon Convenes Emergency Meeting on Middle East Situation"
+      },
+      "sideNews": [
+        {
+          "title": "FSC: Middle East Conflict Unlikely to Have Direct Impact on Local Market with Limited Exposure"
+        },
+        {
+          "title": "Fuel Tax Cuts Extended through June"
+        },
+        {
+          "title": "韩美商定加强延伸威慑 举行模拟北韩核攻击的桌面演习"
+        },
+        {
+          "title": "韩财政部：经济各领域复苏存在差异 物价情况再次低迷"
+        },
+        {
+          "title": "韓国銀行 政策金利を10回連続で据え置き インフレ根強く"
+        },
+        {
+          "title": "総選挙での与党惨敗 尹大統領が来週初めにも立場表明か"
+        }
+      ]
+    },
+    {
+      "id": "bbfc",
+      "pressName": "YONHAPNEWS",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/946.png",
+      "editedTime": "04월 15일 09:22 직접 편집",
+      "category": "영자지",
+      "headline": {
+        "title": "Yoon presides over emergency meeting on Mideast crisi..."
+      },
+      "sideNews": [
+        {
+          "title": "N. Korea's Kim vows to further develop ties with China"
+        },
+        {
+          "title": "U.S. ambassador to U.N. set to arrive in S. Korea"
+        },
+        {
+          "title": "韩政府强烈谴责伊朗袭击以色列"
+        },
+        {
+          "title": "金正恩会见中国全国人大常委会委员长赵乐际"
+        },
+        {
+          "title": "尹大統領が緊急会議で経済・安保対応　イランの報復攻撃受け"
+        },
+        {
+          "title": "韓国大統領室　首相・秘書室長の後任人事に時間かかる見通し"
+        }
+      ]
+    },
+    {
+      "id": "3249",
+      "pressName": "스포츠한국",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/962.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "'댓글부대' 홍경 \"내 심장 속 불이 꺼지지 않게 늘 촉수를 세우죠\"[인터뷰]"
+      },
+      "sideNews": [
+        {
+          "title": "‘아스날-유벤투스 저리가라’... 레버쿠젠, ‘4대리그 21세기 최고 무패우승’ 이룰까"
+        },
+        {
+          "title": "‘우승 32회’ 뮌헨도 못한 '무패우승' 임박, 분데스리가 최초 보이는 레버쿠젠[초점]"
+        },
+        {
+          "title": "충격적인 심판진 ABS 판정 조작 논란… ‘공정성’은 어디로[초점]"
+        },
+        {
+          "title": "[인터뷰] 진건우 \"'원더풀 월드' 흥행 예감…김남주 선배 칭찬에 힘 얻었죠\""
+        },
+        {
+          "title": "‘LCK 첫 4연속 우승’… 새 역사 쓴 젠지, 국제전 악몽도 떨쳐낼까[초점]"
+        },
+        {
+          "title": "이찬원·김호중, 전곡 작사·작곡→色다른 매력까지…같은 듯 다른 행보[스한초점]"
+        }
+      ]
+    },
+    {
+      "id": "6de3",
+      "pressName": "조이뉴스24",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/947.png",
+      "editedTime": "04월 15일 09:51 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "故박보람, 오늘(15일) 부검…소속사 \"가짜뉴스 법적대응\"[종합]"
+      },
+      "sideNews": [
+        {
+          "title": "[순위표] '눈물의 여왕', 김갑수 사망 '충격'…시청률 20% 돌파"
+        },
+        {
+          "title": "'미녀와 순정남' 임수향x지현우, 무인도 고립…시청률 16.8%"
+        },
+        {
+          "title": "'하이드', 이청아 아버지=이보영 친부? 예측 박살낸 충격 반전"
+        },
+        {
+          "title": "김혜윤, 정우성x이정재 품으로…아티스트컴퍼니와 전속계약"
+        },
+        {
+          "title": "'유니버스티켓' 男버전, '유니버스 리그' 온다(공식)"
+        },
+        {
+          "title": "'데뷔 12주년' 엑소, 팬미팅 'ONE' 성료…전세계 103개 지역 열광"
+        }
+      ]
+    },
+    {
+      "id": "8765",
+      "pressName": "스포츠Q",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/802.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "진종오 웃고 김영주 울고, 희비 엇갈린 체육인 [4·10 총선]"
+      },
+      "sideNews": [
+        {
+          "title": "충돌·반칙… 쇼트트랙 황대헌 ‘반칙왕’으로 굳나"
+        },
+        {
+          "title": "롯데 타선 부진, ‘우승 청부사’도 쉽지 않다"
+        },
+        {
+          "title": "강소휘, 김연경도 못한 ‘8억 시대’ 활짝 [V리그]"
+        },
+        {
+          "title": "'구혜선 이혼' 안재현, 돌싱 자택 공개"
+        },
+        {
+          "title": "‘슈퍼스타 K2’ 박보람 사망, 향년 30세"
+        },
+        {
+          "title": "‘베테랑2’, 칸부터 밟는다, 정해인은 ‘첫 입성’"
+        }
+      ]
+    },
+    {
+      "id": "f501",
+      "pressName": "뉴스엔",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/447.png",
+      "editedTime": "04월 15일 09:21 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "채종협, 일본서 ‘아이 러브 유’ 막촬날 감동의 눈물 왈칵[스타와치]"
+      },
+      "sideNews": [
+        {
+          "title": "故박보람 사망에 돈벌이 나선 유튜버 “가짜뉴스, 피 솟구쳐” 맹비난 [종합]"
+        },
+        {
+          "title": "“혼자가 좋아” 안재현 이어 구혜선도 예능 출격, 당당한 돌싱라이프 [종합]"
+        },
+        {
+          "title": "큐브 신인 나우어데이즈, 괴물 행보 시작‥심상찮은 상승세 [뮤직와치]"
+        },
+        {
+          "title": "르세라핌 美 코첼라 환호로 꽉 채웠다 “꿈 이뤄”→미공개곡 깜짝 공개 [종합]"
+        },
+        {
+          "title": "최대철, 제니 닮은 딸 月1300만원 학비 버느라 실신→다이어트에 운 딸바보(살림남2)[어제TV]"
+        },
+        {
+          "title": "뉴진스 해린 ‘강렬한 햇빛에도 여신美 폭발’[포토엔HD]"
+        }
+      ]
+    },
+    {
+      "id": "c490",
+      "pressName": "스포탈코리아",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/139.png",
+      "editedTime": "04월 14일 11:29 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "글래머 드러낸 아찔 드레스 입은 여배우"
+      },
+      "sideNews": [
+        {
+          "title": "핵심 RB 포로 햄스트링 부상에 고민 커진 토트넘"
+        },
+        {
+          "title": "`분데스리가에서 나온 황당 사건` 도르트문트, 페널티킥 득점 후 VAR 판"
+        },
+        {
+          "title": "'잉글랜드 입성 후 최악의 경기' 판 더 펜, 2번의 미끌 + 뒷공간 노출"
+        },
+        {
+          "title": "`청각 장애인 서포터를 위한 감동 세리머니` 뉴캐슬"
+        },
+        {
+          "title": "메시 1군-야말 2군-쿠보 3군! 1970년 이후"
+        },
+        {
+          "title": "술에 취해 훈련 참여+훈련장 난투극+음바페와 다툼까"
+        }
+      ]
+    },
+    {
+      "id": "2935",
+      "pressName": "일간스포츠",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2023/0112/nsd92558162.png",
+      "editedTime": "04월 15일 09:10 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "‘피라미드 게임’ 감독 “학폭 모방 현상 놀라…정당화 안돼”"
+      },
+      "sideNews": [
+        {
+          "title": "외국인 선수에게 물었다, ABS 어때요?"
+        },
+        {
+          "title": "'스키즈·아이유·임영웅·제베원·김호중…' 올해의 트렌드는? KGMA, 월간 시상 팬투표로 포문"
+        },
+        {
+          "title": "故 박보람, 오늘(15일) 부검… 사망 원인 밝혀질까  "
+        },
+        {
+          "title": "‘눈물의 여왕’ 김갑수, 가족 지키려 극단선택…시청률 20.7% ‘고공행진’"
+        },
+        {
+          "title": "강소휘가 김연경보다 연봉을 더 많이 받는다고? 규정의 함정"
+        },
+        {
+          "title": "아이브 이어 뉴진스·보아도... 사이버렉카 딱 기다려 [줌인]"
+        }
+      ]
+    },
+    {
+      "id": "91b1",
+      "pressName": "스타뉴스",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/108.png",
+      "editedTime": "04월 15일 10:00 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "'돌연 사망' 故 박보람, 오늘(15일) 부검 실시..빈소 없이 애도만 [스타이슈]"
+      },
+      "sideNews": [
+        {
+          "title": "김지원, 김수현 두 번째 프러포즈 거절..최고 25.2% [종합](눈물의 여왕)"
+        },
+        {
+          "title": "구혜선 \"'꽃남' 금잔디로 대만 공항 흔들렸다\""
+        },
+        {
+          "title": "역시 죽어야 사는 남자..김갑수 '눈물의 여왕'서도 죽음 엔딩"
+        },
+        {
+          "title": "'싱글대디' 최민환, 삼남매 육아 스킬..전처 율희 영상통화"
+        },
+        {
+          "title": "\"군입대 생각했는데...\" 윤상필, 76전 77기 기적의 우승"
+        },
+        {
+          "title": "선우은숙 \"내가 유영재 3번째 아내\" 충격 인정"
+        }
+      ]
+    },
+    {
+      "id": "999d",
+      "pressName": "마이데일리",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/117.png",
+      "editedTime": "04월 15일 08:21 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "위기의 KBO ABS? 음모론부터 조작설까지…허구연 총재가 직접 나서야 한다, 방향성·신뢰성 문제다"
+      },
+      "sideNews": [
+        {
+          "title": "이정후 6G 연속 안타→시즌 2호 도루→폭풍 주루 '활약'... 팀은 4-9 패배"
+        },
+        {
+          "title": "김갑수 사망…김수현, 바다에 빠진 ♥김지원 구한 장본인이었다 [눈물의 여왕](종합)"
+        },
+        {
+          "title": "'마이큐♥' 김나영, 아이들 없는 둘만의 데이트에 오열…\"무슨 말을 할지도 모르겠어\" [마데핫리뷰]"
+        },
+        {
+          "title": "\"당신이 이강인을 망쳤어!\"…엔리케 '맹비난'한 월드컵 챔피언, \"이강인 활용법 몰라, 확실한 자질 있지만 항상 어려움 겪는 이유\""
+        },
+        {
+          "title": "5위 추락, 손흥민과 토트넘 팬들의 간절한 기도→“아스널의 승리를 기원합니다”"
+        },
+        {
+          "title": "이정후 6G 연속 안타→시즌 2호 도루→폭풍 주루 '활약'... 팀은 4-9 패배"
+        }
+      ]
+    },
+    {
+      "id": "9974",
+      "pressName": "스포츠춘추",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2022/0116/nsd19454239.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "“볼이라고 나왔다 하세요” 심판진의 충격적인 은폐 모의 들통…NC “강력 항의” KBO “경위 조사” [춘추 이슈]"
+      },
+      "sideNews": [
+        {
+          "title": "기세 제대로 탄 영웅군단의 비결? 이형종 “절실한 선배들 보고 후배들도 따라온다” [춘추 현장]"
+        },
+        {
+          "title": "2군 16연타석 출루+14연타수 안타…SSG 김창평, 신기록 마감에도 ‘자신감 뿜뿜’ [춘추 이슈]"
+        },
+        {
+          "title": "“우리 팀만 유독…ABS 못 믿겠다” 최하위 부진에 롯데 김태형 감독 분노 폭발 [춘추 현장]"
+        },
+        {
+          "title": "6년 전 그때 그 볼보이, 이렇게 컸습니다…18살 신인 마법사 육청명 [춘추 이슈분석]"
+        },
+        {
+          "title": "첫 홀드는 너무 어.려.웠지만 해냈다…내 이름은 김택연 [춘추 피플]"
+        },
+        {
+          "title": "“선발이 고민이죠” 타격 좋고 불펜 탄탄한데, 딱 하나 아쉬운 SSG [춘추 집중분석]"
+        }
+      ]
+    },
+    {
+      "id": "5cf8",
+      "pressName": "OSEN",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2020/0610/nsd151458769.png",
+      "editedTime": "04월 15일 08:18 직접 편집",
+      "category": "스포츠/연예",
+      "headline": {
+        "title": "강소라, 출산→20kg 감량…“밀가루 절대 NO, 라면 1년째 안먹어” (‘슈돌’) [어저께TV]"
+      },
+      "sideNews": [
+        {
+          "title": "“천벌 받았다” 김갑수, 죽음으로 가족 지켰다..김지원, 비자금 발견? (’눈물의여왕’)[어저께TV]"
+        },
+        {
+          "title": "god 박준형 소신발언 \"아이돌, 언제든 연애해도 돼..자연스러운 것\"('피식쇼')[Oh!쎈 포인트]"
+        },
+        {
+          "title": "\"셋째소식?\" 벌써부터 비♥김태희 '겹경사' 난리..진짜 '굿뉴스' 뭐길래? (Oh!쎈 이슈)"
+        },
+        {
+          "title": "'69억 빚청산' 후..이상민 \"생전 처음으로 숍에서 메이크업 받아\""
+        },
+        {
+          "title": "\"부동산과 사랑 동시 투자\" '70대' 박영규, 25세 아내 사로잡은 비결 [Oh!쎈 종합]"
+        },
+        {
+          "title": "700회 '런닝맨'이 '무한도전' 제친 이유 \"14년째 無사고\" 스웩 [어저께TV]"
+        }
+      ]
+    },
+    {
+      "id": "6326",
+      "pressName": "맥스무비",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/075.png",
+      "editedTime": "04월 15일 09:29 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "'고스트버스터즈' 출격…'쿵푸팬더' 밀어낼까"
+      },
+      "sideNews": [
+        {
+          "title": "역시 김남주·발견 차은우…마지막까지 '원더풀'했다"
+        },
+        {
+          "title": "\"故박보람, 악플에 시달려왔다\" 엄중 경고"
+        },
+        {
+          "title": "[오늘 뭘 볼까] 얇은 벽으로 시작된 사랑, 영화 '우린 벽 있는 사이'"
+        },
+        {
+          "title": "'파묘' 역대 공포영화 1위에"
+        },
+        {
+          "title": "이승윤 마침내 2만 달성, 스크린에서 증명한 '티켓파워'"
+        },
+        {
+          "title": "열흘 남았는데…'범죄도시4' 예매율 1위"
+        }
+      ]
+    },
+    {
+      "id": "4ecb",
+      "pressName": "철강금속신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/956.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "작년 철스크랩 업계, 외형 줄었지만 내실 '선방'"
+      },
+      "sideNews": [
+        {
+          "title": "2024 총선 종료 …철강도시 당선자는 누구?"
+        },
+        {
+          "title": "고려아연, 영풍과 '각자도생'…공동구매·공동영업 계약 종료"
+        },
+        {
+          "title": "조달청 “운영 재고 늘려 안정적으로 물량 확보할 것”"
+        },
+        {
+          "title": "장인화 회장 취임 후 첫 조직개편·임원인사…“우수 여성 임원 약진”"
+        },
+        {
+          "title": "WSA, 지속가능성 최우수 멤버에 ‘포스코홀딩스’ 등 11社 선정"
+        },
+        {
+          "title": "조달청, 비축물자 전매 행위 전수 조사 실시"
+        }
+      ]
+    },
+    {
+      "id": "de1f",
+      "pressName": "컴퓨터월드",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/928.png",
+      "editedTime": "03월 31일 22:41 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "불꽃 튀는 클라우드 업계의 ‘생성형 AI 대전’"
+      },
+      "sideNews": [
+        {
+          "title": "콤텍시스템, ‘클라우드 네이티브 솔루션 기업’으로 완전 탈바꿈"
+        },
+        {
+          "title": "“기존 SI사업으로는 미래 없다”…새 먹거리 찾는 중견 SI 기업들"
+        },
+        {
+          "title": "금융·공공 중심으로 확대되는 APIM"
+        },
+        {
+          "title": "홈네트워크 보안 시장 선점 경쟁 ‘꿈틀’"
+        },
+        {
+          "title": "“시작된 AI 국가 대항전, 필승 전략 핵심은 민간 주도형 브레인 조직”"
+        },
+        {
+          "title": "금융결제원, 차세대 BI 시스템으로 급변하는 인증 시장에 대응"
+        }
+      ]
+    },
+    {
+      "id": "6e9c",
+      "pressName": "경남도민일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/821.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "[비례 당선자] 비정규직 노동자 정혜경 “국회서 정치로 바꾸겠다”"
+      },
+      "sideNews": [
+        {
+          "title": "스마트 생태공장 구축으로 제조 경쟁력 확대하는 창원 ‘대균’"
+        },
+        {
+          "title": "전통주 맛보고, 알리는 제3회 창원전통주대회 '인기'"
+        },
+        {
+          "title": "나무 합판으로 자동차등록번호판 위조 '실형'"
+        },
+        {
+          "title": "'세월호 10주기 교육적 의미는?' 경남교육정책토론회 열린다"
+        },
+        {
+          "title": "\"마을길에 하루 500대 트럭이...진해 와성만 매립공사에 고통\""
+        },
+        {
+          "title": "독특한 풍광·웅장함 깃는 성당, 여행자 고단함마저 잇게 하네"
+        }
+      ]
+    },
+    {
+      "id": "f8eb",
+      "pressName": "중부일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2022/0704/nsd231551300.png",
+      "editedTime": "04월 15일 09:23 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "이재명·조국 급부상에 고민 깊어지는 김동연 지사"
+      },
+      "sideNews": [
+        {
+          "title": "[故임완수 회장 1주기] \"생전 국가·지역발전 최우선… 뜻 잇겠다\""
+        },
+        {
+          "title": "[세월호 참사 10주기] '세월'의 흔적… 진상규명은 현재진행형"
+        },
+        {
+          "title": "손님 줄어들고 점유율도 털썩… '위기의 재래시장'"
+        },
+        {
+          "title": "경기북부특별자치도 '예상밖 암초' 만났다"
+        },
+        {
+          "title": "파랗게 물든 경기도… 비례정당은 빨간 경기도"
+        },
+        {
+          "title": "산으로 간 경기 노사정… '협력적 거버넌스' 합의"
+        }
+      ]
+    },
+    {
+      "id": "79c1",
+      "pressName": "경북도민일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/978.png",
+      "editedTime": "04월 14일 18:47 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "尹, 총리·비서실장 후임 인선 ‘초읽기’"
+      },
+      "sideNews": [
+        {
+          "title": "450년 전 퇴계 선생 길따라 지방시대 연다"
+        },
+        {
+          "title": "안동 송변전 특별지원금 후유증 심각"
+        },
+        {
+          "title": "이재명 이어 조국도…尹, 회담 제안 응할까"
+        },
+        {
+          "title": "정희용, 칠곡 평복2리 경로당 준공 이끌었다"
+        },
+        {
+          "title": "이웃과 떠나는 특별한 봉사여행… 포스코 ‘볼룬투어’ 프로그램 시작"
+        },
+        {
+          "title": "KT, 디지털기술로 골목상권 경쟁력 강화"
+        }
+      ]
+    },
+    {
+      "id": "d226",
+      "pressName": "무등일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/976.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "[날씨] 월요일부터 봄비···광주·전남 최고 80㎜ 폭우"
+      },
+      "sideNews": [
+        {
+          "title": "[오늘의 운세] 69년생 행운의 주인공 만세가 불려진다."
+        },
+        {
+          "title": "광주 양산동서 지름 1.3ｍ 땅 꺼짐···긴급 복구"
+        },
+        {
+          "title": "조국혁신당, 총선 후 첫 지역 방문 '광주·전주'行"
+        },
+        {
+          "title": "[세월호10주기] \"잊지 않겠습니다\" 노랗게 물든 팽목항·목포신항 추모행렬"
+        },
+        {
+          "title": "[무슐랭] \"우리집 댕댕이와\" 광주 애견동반식당 맛집"
+        },
+        {
+          "title": "'무승의 전북에 발목'...광주FC, 충격의 5연패"
+        }
+      ]
+    },
+    {
+      "id": "c16c",
+      "pressName": "충청일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/391.png",
+      "editedTime": "04월 14일 22:11 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "충북 초선이 절반... 기대 반 우려 반 "
+      },
+      "sideNews": [
+        {
+          "title": "예산군, 제19회 예산군수배 예당전국낚시대회 성료"
+        },
+        {
+          "title": "'집 앞 학교 두고 멀리'… 충북혁신도시 중학교 배정 논란"
+        },
+        {
+          "title": "먹거리물가 고공행진…1분기 34개 품목 중 25개 올라"
+        },
+        {
+          "title": "청주 3순환로 전 구간 개통"
+        },
+        {
+          "title": "지역 사회와 함께하는 청주가드닝페스티벌"
+        },
+        {
+          "title": "尹대통령, 후임 총리·비서실장 인선 시간 걸린 듯…인사 검증에 신중"
+        }
+      ]
+    },
+    {
+      "id": "97f1",
+      "pressName": "인천일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2022/0331/nsd155937506.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "부산 빠진 APEC 유치전, 인천·제주·경주 '3파전'"
+      },
+      "sideNews": [
+        {
+          "title": "[세월호 10주기] 아이들 안전한 세상 올 때까지…잊지 않겠습니다"
+        },
+        {
+          "title": "세월은 우리를 잊어도…우리는 세월을 잊지 말자"
+        },
+        {
+          "title": "전세사기 당한 것도 서러운데…침수·누수에 또 우는 피해자"
+        },
+        {
+          "title": "청년 청약통장 '온라인 가입' 첫날, 국민은행 앱 먹통"
+        },
+        {
+          "title": "“아픔 극복하고 세상 바꾸는 장소로 기억하길”"
+        },
+        {
+          "title": "[세월호 10주기] 아이들 안전한 세상 올 때까지…잊지 않겠습니다"
+        }
+      ]
+    },
+    {
+      "id": "f529",
+      "pressName": "베리타스알파",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2023/0826/nsd0145257.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "[단독] 지자체 2025대입정보 박람회 일정 총정리.. 진협/대교협 출신 상담교사단 1대1상담 '눈길'"
+      },
+      "sideNews": [
+        {
+          "title": "2024 QS 의학 순위 ‘대폭 하락’.. 서울대 연대 고대 성대 KAIST 국내 톱5"
+        },
+        {
+          "title": "‘3년째 문제지만’ 영재학교 기출문항 공개 실효성 논란.. 출제근거/예시답안/평가기준 ‘비공개’ "
+        },
+        {
+          "title": "2025 초등교원양성기관 입학정원 3390명 ‘12% 축소’.. 경쟁률 상승 전망 "
+        },
+        {
+          "title": "[단독] 2024 의대 정시 등록자 80.1% ‘N수생’.. 울산대100% 연대74.5% 가톨릭대67.6% 서울대66.7%"
+        },
+        {
+          "title": "[단독]주요22개대 2025입시캘린더.. 입시설명회/교사간담회 일정 총정리 ‘4월부터 7월까지’"
+        },
+        {
+          "title": "[단독] ‘영재학교부터 자사고까지’ 2025 고교 입학설명회 일정 총정리.. 북일고 19회 진행 ‘최다’"
+        }
+      ]
+    },
+    {
+      "id": "2026",
+      "pressName": "이코노믹리뷰",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2022/0418/nsd164755323.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "코스피, 중동 사태 긴장감에 1%대 하락···2650선까지 후퇴"
+      },
+      "sideNews": [
+        {
+          "title": "전운 깔리는 중동...윤 대통령 \"에너지 관리 시스템 가동하라\""
+        },
+        {
+          "title": "젠지 '신들의 전쟁' 2024 LCK서 4연패 성공"
+        },
+        {
+          "title": "[K신약 밸류업 시대③] HLB·유한양행, K항암제 첫 美FDA 허가는 “바로 나”"
+        },
+        {
+          "title": "강대국 영국을 지탱하는 힘, ‘왕실과 정치’[북앤북]"
+        },
+        {
+          "title": "하이브리드 강자 토요타 “전기차만 정답 아니야…핵심은 탄소중립”"
+        },
+        {
+          "title": "하이트진로 이천공장서 발견한 24년 묵은 보물 [ER현장]"
+        }
+      ]
+    },
+    {
+      "id": "9368",
+      "pressName": "바이라인네트워크",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/819.png",
+      "editedTime": "04월 15일 09:59 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "[결정적 순간] 모텔 예약하던 야놀자는 어떻게 나스닥을 꿈꾸게 됐나"
+      },
+      "sideNews": [
+        {
+          "title": "[바스리] “개인사업자 신용평가, 막혔던 부분을 풀겠다”"
+        },
+        {
+          "title": "[커머스BN] 쿠팡이 와우 멤버십 구독료를 올릴 수 있는 용기는 어디에서 왔나"
+        },
+        {
+          "title": "홈플러스 익스프레스 즉시배송 매출, 지난 1년간 60% 늘었다"
+        },
+        {
+          "title": "무신사에 나이키가 입점한다"
+        },
+        {
+          "title": "롯데택배, 이커머스 판매자 대상 ‘택배 주문·출고 정보 자동화’ 서비스 출시"
+        },
+        {
+          "title": "마이크로스트레티지코리아, 정경후 신임 지사장 선임"
+        }
+      ]
+    },
+    {
+      "id": "3cf8",
+      "pressName": "머니",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/806.png",
+      "editedTime": "04월 15일 09:33 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "'리틀 대치동' 광장동, 재건축으로 'UP'"
+      },
+      "sideNews": [
+        {
+          "title": "복잡한 상속포기, '독' 대신 '득' 되려면"
+        },
+        {
+          "title": "혼인·출산 시 증여재산 공제 받으려면"
+        },
+        {
+          "title": "전력 인프라, ‘미래 먹거리’ 열쇠 쥐었다"
+        },
+        {
+          "title": "비트코인 현물 ETF 출시…‘디지털 골드’의 귀환"
+        },
+        {
+          "title": "비트코인의 미래, 주목할 논쟁은"
+        },
+        {
+          "title": "신사역 상권 세대교체?...가로수길 vs 세로수길"
+        }
+      ]
+    },
+    {
+      "id": "bb55",
+      "pressName": "사이언스타임즈",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/355.png",
+      "editedTime": "04월 11일 10:55 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "“이동성 야생동물이 위험해” 어류의 97%는 멸종 위기…"
+      },
+      "sideNews": [
+        {
+          "title": "태양을 삼킨 달의 그림자, 6년 7개월 만의 `개기일식`에 북중미가 환호하다"
+        },
+        {
+          "title": "키스를 하면 살이 빠진다?"
+        },
+        {
+          "title": "코카인 백신, 마약 중독자에게 도움이 될 수 있을까?"
+        },
+        {
+          "title": "유엔 기상청, 기후에 대한 ‘적색경보’를 울리다"
+        },
+        {
+          "title": "아이들은 태어날 때부터 ‘인종 차별주의자’로 태어나지는 않는다"
+        },
+        {
+          "title": "“북극곰이 위험해” 비쩍 마른 북극곰, 올여름 어떡해"
+        }
+      ]
+    },
+    {
+      "id": "c5b4",
+      "pressName": "디자인정글",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/345.png",
+      "editedTime": "04월 13일 13:55 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "[포커스 인터뷰] 영종도의 지역 콘텐츠 발전시키는 전수철 마을 문화 활동가"
+      },
+      "sideNews": [
+        {
+          "title": "[포커스 인터뷰] IT 디자인 전문 프리랜서 매칭 플랫폼 ㈜디자인그룹나인 이성구 대표"
+        },
+        {
+          "title": "[포커스 인터뷰] AI 모델 에이전시 ‘블러블러’ 변사범 대표"
+        },
+        {
+          "title": "[포커스 인터뷰] 과잉된 정보, 디자인으로 정리하는 인포크리에이티브 정도천 대표"
+        },
+        {
+          "title": "[디자인 화제] 엑스포디자인그룹, '생성형 AI 활용 캐릭터 디자인 공모전' 수상자 발표"
+        },
+        {
+          "title": "[포커스 인터뷰] 한문화의 정체성 확립해야… 한국공예·디자인문화진흥원 장동광 원장"
+        },
+        {
+          "title": "[포커스 인터뷰] 명품 고택 지키는 조견당 김주태 대표"
+        }
+      ]
+    },
+    {
+      "id": "a28f",
+      "pressName": "식품저널 foodnews",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/up/2021/0211/nsd0427277.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "매거진/전문지",
+      "headline": {
+        "title": "[단독] AI 기간 중 난각번호 ‘1’ 달걀 관련 농식품부와 식약처 '이견' 업계 혼란"
+      },
+      "sideNews": [
+        {
+          "title": "“음식점 영업신고증 보관 의무 완화해주세요”"
+        },
+        {
+          "title": "풀무원푸드앤컬처, 7개 고속도로휴게소에 스마트 무인 자판기 도입"
+        },
+        {
+          "title": "4월 중 배추 170톤 매일 방출, 저율ㆍ할당관세 양파 대파 공급"
+        },
+        {
+          "title": "식품진흥원, 창립 13주년 기념식…“식품산업 진흥 노력”"
+        },
+        {
+          "title": "돈가스 등 ‘동물성 식품’ 수입관리 더 깐깐해진다"
+        },
+        {
+          "title": "프레시지, 위메프와 물류 서비스ㆍ공동 마케팅 협약 "
+        }
+      ]
+    },
+    {
+      "id": "aa2f",
+      "pressName": "강원일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/087.png",
+      "editedTime": "04월 14일 21:19 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "[2024 베트남 국제관광박람회]강원관광 베트남 시장 정조준…현지 여행업계 비즈니스 미팅 60여건 성과"
+      },
+      "sideNews": [
+        {
+          "title": "[2024 베트남 국제관광박람회]\"K-컬쳐 관심 높은 베트남, 방한 관광 성장 잠재력 무궁무진\""
+        },
+        {
+          "title": "[2024 베트남 국제관광박람회]\"베트남 관광객 첫 한국 방문은 강원도에서\"…강원관광설명회 성황리 개최"
+        },
+        {
+          "title": "[2024 베트남 국제관광박람회]한류팬 마음 사로잡았다…강원자치도·강원랜드 우수기관 감사패 수상"
+        },
+        {
+          "title": "[2024 베트남 국제관광박람회]동해시, 석회석 광산이 관광지로 탈바꿈 '무릉별유천지' 알려"
+        },
+        {
+          "title": "[2024 베트남 국제관광박람회]속초시, 일과 관광 두 마리 토끼 '워케이션' 집중 홍보"
+        },
+        {
+          "title": "[2024 베트남 국제관광박람회]홍천군, 별빛음악 맥주축제 방문객 유치 사활"
+        }
+      ]
+    },
+    {
+      "id": "3b89",
+      "pressName": "국제신문",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/332.png",
+      "editedTime": "04월 14일 20:50 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "부산 6070 기록적 사전투표율, 與 승기 굳혔다"
+      },
+      "sideNews": [
+        {
+          "title": "부산 남 박수영, 상대 안방 용호1동서 승리…강서 김도읍 명지1·2동 압도"
+        },
+        {
+          "title": "사전투표 빠진 출구조사…접전 부산 엉터리 예측"
+        },
+        {
+          "title": "22대 총선, 부산 민주 후보들 \"졌잘싸\"? 득표율 대부분 선전"
+        },
+        {
+          "title": "여도 야도 ‘PK 메신저’ 없다…‘수도권 국회’ 공고화 우려"
+        },
+        {
+          "title": "산은·글로벌허브법, 부산 與 당선인들 野와 협치 급하다"
+        },
+        {
+          "title": "‘여소야대’ 22대 국회, 재계 중점현안 줄줄이 좌초하나"
+        }
+      ]
+    },
+    {
+      "id": "2276",
+      "pressName": "전북도민일보",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/937.png",
+      "editedTime": "04월 15일 09:53 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "내년도 국비 확보, 신-구 국회의원간 협치에 달렸다"
+      },
+      "sideNews": [
+        {
+          "title": "전주에코시티 16블록 포스코 4차 분양 임박"
+        },
+        {
+          "title": "‘돌아온 알까기’ 전국대회…13일 전주대체육관에서 첫 경기 시작"
+        },
+        {
+          "title": "‘낚시로 잡은 배스 썩어도 나 몰라라’…민물낚시 관리 법령 부실"
+        },
+        {
+          "title": "[기획] 선거구 변화·공천 향배…지방선거 판도 바꾸나"
+        },
+        {
+          "title": "‘낚시로 잡은 배스 썩어도 나 몰라라’…민물낚시 관리 법령 부실"
+        },
+        {
+          "title": "전주에코시티 16블록 포스코 4차 분양 임박"
+        }
+      ]
+    },
+    {
+      "id": "7700",
+      "pressName": "미디어제주",
+      "logoImageSrc": "https://s.pstatic.net/static/newsstand/2020/logo/light/0604/817.png",
+      "editedTime": "04월 15일 09:50 직접 편집",
+      "category": "지역",
+      "headline": {
+        "title": "갖은 논란 속 승인된 제주자연체험파크, 대충 넘어가려다 제동?"
+      },
+      "sideNews": [
+        {
+          "title": "‘혐오사회’ 극복? “생태적 영성 절실 … ‘경청’과 ‘돌봄’의 자세도”"
+        },
+        {
+          "title": "“행정체제 개편, 동제주‧서제주시 분리 심도 있는 검토 필요”"
+        },
+        {
+          "title": "20여년 출입 통제 제주 발자국 화석산지, 탐방 가능해질까?"
+        },
+        {
+          "title": "오영훈과 제22대 총선 당선자 만남 ... \"제주현안 도와달라\""
+        },
+        {
+          "title": "“우리와 함께 숨쉬는 지구를 살려주세요~!”"
+        },
+        {
+          "title": "스포츠윤리센터, 제주도청·교육청 민원 신고 창구 개설"
+        }
+      ]
+    }
+  ]
+}

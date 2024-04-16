@@ -1,5 +1,8 @@
 import { CustomDate } from "./js/Date";
 import { reloadPage } from "./utils/utils";
+import { Grid } from "./js/Presscompany";
+
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import "./App.css";
 
 function App() {
@@ -35,7 +38,15 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="presscompany-contents"></div>
+        <div className="presscompany-contents">
+          <button className="left-btn">
+            <LeftOutlined />
+          </button>
+          <button className="right-btn">
+            <RightOutlined />
+          </button>
+          <Grid />
+        </div>
       </div>
     </div>
   );
