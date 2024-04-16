@@ -1,22 +1,12 @@
-import { CustomDate } from "./js/Date";
-import { reloadPage } from "./utils/utils";
-import { Grid } from "./js/Presscompany";
-
+// import { Presscompany } from "./js/Presscompany";
+import { Header } from "./js/header";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import "./App.css";
 
 function App() {
   return (
     <div className="wrap">
-      <div className="header">
-        <div className="title">
-          <button className="refresh-btn" onClick={reloadPage}>
-            <img src="./public/img/refresh.png" />
-          </button>
-          <h1>뉴스스탠드</h1>
-        </div>
-        <CustomDate />
-      </div>
+      <Header />
       <div className="rollingnews">
         <div className="rollingnews-contents">
           <div className="rollingnews-left"></div>
@@ -45,7 +35,7 @@ function App() {
           <button className="right-btn">
             <RightOutlined />
           </button>
-          <Grid />
+          {/* <Presscompany /> */}
         </div>
       </div>
     </div>

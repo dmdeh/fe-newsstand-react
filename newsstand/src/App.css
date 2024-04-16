@@ -4,17 +4,6 @@
   width: 1000px;
 }
 
-.header {
-  display: flex;
-  height: 100px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.title {
-  display: flex;
-}
-
 .rollingnews {
   display: flex;
   flex-direction: column;

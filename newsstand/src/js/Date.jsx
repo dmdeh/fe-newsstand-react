@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { getCurrentDate } from "../utils/utils.js";
 
-export function CustomDate() {
+export function Date() {
   return <StyledSpan>{getCurrentDate()}</StyledSpan>;
 }
 
