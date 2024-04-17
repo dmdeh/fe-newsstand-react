@@ -47,20 +47,3 @@
   display: flex;
 }
 
-.left-btn,
-.right-btn {
-  position: relative;
-  top: -60%;
-  font-size: 50px;
-  width: 50px;
-  z-index: 1;
-  color: #909090;
-}
-
-.left-btn {
-  left: -10%;
-}
-
-.right-btn {
-  right: -100%;
-}

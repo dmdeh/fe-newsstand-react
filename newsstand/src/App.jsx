@@ -1,6 +1,5 @@
-import { Press } from "./js/Press";
 import { Header } from "./js/Header";
-import { LeftOutlined, RightOutlined } from "@ant-design/icons";
+import { PressWithPagination } from "./js/Press";
 import "./App.css";
 
 function App() {
@@ -29,13 +28,7 @@ function App() {
           </div>
         </div>
         <div className="press-contents">
-          <Press />
-          <button className="left-btn">
-            <LeftOutlined />
-          </button>
-          <button className="right-btn">
-            <RightOutlined />
-          </button>
+          <PressWithPagination />
         </div>
       </div>
     </div>
