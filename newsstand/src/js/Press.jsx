@@ -5,15 +5,15 @@ import { logoImageSrc } from "../data/newsLogos.json";
 
 const PAGE_SIZE = 24;
 
-export function Presscompany() {
-  return <StyledGrid className="presscompany">{renderGrid(0)}</StyledGrid>;
+export function Press() {
+  return <StyledGrid className="press">{renderGrid(0)}</StyledGrid>;
 }
 
 function createGrid(index) {
   const shuffleLogos = shuffle(logoImageSrc);
   if (index < shuffleLogos.length) {
     return (
-      <StyledLogo className="presscompany-logo" key={index}>
+      <StyledLogo className="press-logo" key={index}>
         <img src={shuffleLogos[index]} alt={`Logo ${index}`} />
         <Subscription />
       </StyledLogo>
@@ -47,6 +47,15 @@ const StyledLogo = styled.div`
   text-align: center;
   background: white;
   position: relative;
+  &:hover {
+    background: #f6f7f9;
+    > button {
+      display: block;
+    }
+    img {
+      visibility: hidden;
+    }
+  }
   img {
     visibility: visible;
     position: absolute;

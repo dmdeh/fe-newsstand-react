@@ -20,13 +20,17 @@ export function Subscription() {
 }
 
 const StyledButton = styled.button`
-  width: 120px;
+  display: none;
+  position: absolute;
+  width: 100px;
   height: 30px;
-  font-size: 20px;
-  color: #88939a;
+  top: 35%;
+  left: 20%;
+  font-size: 16px;
+  color: #808080;
   background: white;
-  border: 2px solid #d3d9df;
-  border-radius: 10px;
+  border: 1px solid #d3d9df;
+  border-radius: 20px;
 `;
 
 export default Subscription;

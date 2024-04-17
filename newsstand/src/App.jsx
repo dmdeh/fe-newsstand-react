@@ -1,6 +1,6 @@
-import { Presscompany } from "./js/Presscompany";
+import { Press } from "./js/Press";
 import { Header } from "./js/Header";
-// import { LeftOutlined, RightOutlined } from "@ant-design/icons";
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import "./App.css";
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
           <div className="rollingnews-right"></div>
         </div>
       </div>
-      <div className="presscompany">
-        <div className="presscompany-header">
-          <div className="presscompany-title">
+      <div className="press">
+        <div className="press-header">
+          <div className="press-title">
             <span>전체 언론사</span>
             <span>내가 구독한 언론사</span>
           </div>
@@ -28,14 +28,14 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="presscompany-contents">
-          {/* <button className="left-btn">
+        <div className="press-contents">
+          <Press />
+          <button className="left-btn">
             <LeftOutlined />
           </button>
           <button className="right-btn">
             <RightOutlined />
-          </button> */}
-          <Presscompany />
+          </button>
         </div>
       </div>
     </div>

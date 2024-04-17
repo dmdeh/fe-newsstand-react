@@ -23,23 +23,23 @@
   background-color: #ececec;
 }
 
-.presscompany {
+.press {
   display: flex;
   flex-direction: column;
 }
-.presscompany-header {
+.press-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 20px 0px;
 }
 
-.presscompany-title span {
+.press-title span {
   margin-right: 20px;
   font-size: 20px;
 }
 
-.presscompany-contents {
+.press-contents {
   height: 400px;
 }
 
@@ -50,7 +50,7 @@
 .left-btn,
 .right-btn {
   position: relative;
-  top: 50%;
+  top: -60%;
   font-size: 50px;
   width: 50px;
   z-index: 1;
