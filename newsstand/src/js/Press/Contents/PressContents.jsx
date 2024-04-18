@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { useState } from "react";
-import PropTypes from 'prop-types';
-import { shuffle } from "../utils/utils";
-import { news } from "../data/news.json"
+import PropTypes from "prop-types";
+import { shuffle } from "../../../utils/utils";
+import { news } from "../../../data/news.json";
 import { Subscription } from "./Subscribe";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
@@ -13,7 +13,7 @@ function getLogoImage(news) {
   let newsLogos = [];
   for (let i = 0; i < ALL_LOGS; i++) {
     let logoSrc = news[i].logoImageSrc;
-    newsLogos.push(logoSrc)
+    newsLogos.push(logoSrc);
   }
   return newsLogos;
 }
@@ -51,19 +51,28 @@ export function ChangePage({ currentPage, setCurrentPage }) {
   return (
     <Contents>
       <StyledGrid className="press">{renderGrid(currentPage)}</StyledGrid>
-      <StyledButton className="left-btn" onClick={goToPreviousPage} hidden={currentPage === 0}>
+      <StyledButton
+        className="left-btn"
+        onClick={goToPreviousPage}
+        hidden={currentPage === 0}
+      >
         <LeftOutlined />
       </StyledButton>
-      <StyledButton className="right-btn" onClick={goToNextPage} hidden={currentPage === 3}>
-        <RightOutlined /> 
+      <StyledButton
+        className="right-btn"
+        onClick={goToNextPage}
+        hidden={currentPage === 3}
+      >
+        <RightOutlined />
       </StyledButton>
     </Contents>
   );
 }
 
-ChangePage.propTypes = { //is missing in props validation 에러. 타입 정의. ts쓰면 필요 업음
+ChangePage.propTypes = {
+  //is missing in props validation 에러. 타입 정의. ts쓰면 필요 업음
   currentPage: PropTypes.number.isRequired,
-  setCurrentPage: PropTypes.func.isRequired
+  setCurrentPage: PropTypes.func.isRequired,
 };
 
 export function PressContents() {
@@ -113,8 +122,8 @@ const StyledLogo = styled.div`
 `;
 
 const Contents = styled.div`
-position: relative;
-`
+  position: relative;
+`;
 
 const StyledButton = styled.button`
   position: absolute;
@@ -124,9 +133,9 @@ const StyledButton = styled.button`
   z-index: 1;
   color: #909090;
   &.right-btn {
-    right: -10%
+    right: -10%;
   }
   &.left-btn {
-    left: -10%
+    left: -10%;
   }
 `;

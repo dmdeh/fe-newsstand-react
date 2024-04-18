@@ -4,27 +4,7 @@
   width: 1000px;
 }
 
-.rollingnews {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-
-.rollingnews-contents {
-  display: flex;
-  justify-content: space-between;
-}
-
-.rollingnews-left,
-.rollingnews-right {
-  width: 49%;
-  height: 80px;
-  background-color: #ececec;
-}
-
 .press {
   display: flex;
   flex-direction: column;
 }
-

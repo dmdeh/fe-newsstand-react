@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 import { Date } from "./Date";
-import { reloadPage } from "../utils/utils";
+import { reloadPage } from "../../utils/utils";
 
 export function Header() {
   return (

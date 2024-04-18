@@ -1,20 +1,16 @@
-import { Header } from "./js/Header";
-import { PressHeader } from "./js/PressHeader";
-import { PressContents } from "./js/PressContents";
+import { Header } from "./js/Header/Header";
+import { PressHeader } from "./js/Press/PressHeader";
+import { PressContents } from "./js/Press/Contents/PressContents";
+import { Rollingnews } from "./js/Rollingnews/Rollingnews";
 import "./App.css";
 
 function App() {
   return (
     <div className="wrap">
       <Header />
-      <div className="rollingnews">
-        <div className="rollingnews-contents">
-          <div className="rollingnews-left"></div>
-          <div className="rollingnews-right"></div>
-        </div>
-      </div>
+      <Rollingnews />
       <div className="press">
-        <PressHeader/>
+        <PressHeader />
         <PressContents />
       </div>
     </div>
