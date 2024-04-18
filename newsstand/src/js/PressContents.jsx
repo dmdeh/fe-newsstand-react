@@ -66,7 +66,7 @@ ChangePage.propTypes = { //is missing in props validation 에러. 타입 정의.
   setCurrentPage: PropTypes.func.isRequired
 };
 
-export function PressWithPagination() {
+export function PressContents() {
   const [currentPage, setCurrentPage] = useState(0);
   return (
     <div>

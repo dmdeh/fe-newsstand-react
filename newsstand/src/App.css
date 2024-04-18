@@ -27,23 +27,4 @@
   display: flex;
   flex-direction: column;
 }
-.press-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 20px 0px;
-}
-
-.press-title span {
-  margin-right: 20px;
-  font-size: 20px;
-}
-
-.press-contents {
-  height: 400px;
-}
-
-.view-btn {
-  display: flex;
-}
 

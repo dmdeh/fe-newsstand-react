@@ -1,5 +1,6 @@
 import { Header } from "./js/Header";
-import { PressWithPagination } from "./js/Press";
+import { PressHeader } from "./js/PressHeader";
+import { PressContents } from "./js/PressContents";
 import "./App.css";
 
 function App() {
@@ -13,23 +14,8 @@ function App() {
         </div>
       </div>
       <div className="press">
-        <div className="press-header">
-          <div className="press-title">
-            <span>전체 언론사</span>
-            <span>내가 구독한 언론사</span>
-          </div>
-          <div className="view-btn">
-            <button className="list-view-btn">
-              <img src="./public/img/list_off.png" />
-            </button>
-            <button className="grid-view-btn">
-              <img src="./public/img/grid_off.png" />
-            </button>
-          </div>
-        </div>
-        <div className="press-contents">
-          <PressWithPagination />
-        </div>
+        <PressHeader/>
+        <PressContents />
       </div>
     </div>
   );
