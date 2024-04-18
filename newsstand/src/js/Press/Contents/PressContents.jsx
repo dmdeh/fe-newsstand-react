@@ -1,21 +1,15 @@
 import styled from "styled-components";
 import { useState } from "react";
-import PropTypes from "prop-types";
 import { shuffle } from "../../../utils/utils";
 import { news } from "../../../data/news.json";
 import { Subscription } from "./Subscribe";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const PAGE_SIZE = 24;
-const ALL_LOGS = 96;
+const LAST_PAGE = 3;
 
 function getLogoImage(news) {
-  let newsLogos = [];
-  for (let i = 0; i < ALL_LOGS; i++) {
-    let logoSrc = news[i].logoImageSrc;
-    newsLogos.push(logoSrc);
-  }
-  return newsLogos;
+  return news.map((item) => item.logoImageSrc);
 }
 
 const shuffleLogos = shuffle(getLogoImage(news));
@@ -39,47 +33,28 @@ function renderGrid(page) {
   return gridElements;
 }
 
-export function ChangePage({ currentPage, setCurrentPage }) {
-  const goToPreviousPage = () => {
-    setCurrentPage((prevPage) => prevPage - 1);
-  };
-
-  const goToNextPage = () => {
-    setCurrentPage((prevPage) => prevPage + 1);
-  };
+function Swiper({ currentPage, setCurrentPage }) {
+  const goToPreviousPage = () => setCurrentPage((prevPage) => prevPage - 1);
+  const goToNextPage = () => setCurrentPage((prevPage) => prevPage + 1);
 
   return (
     <Contents>
       <StyledGrid className="press">{renderGrid(currentPage)}</StyledGrid>
-      <StyledButton
-        className="left-btn"
-        onClick={goToPreviousPage}
-        hidden={currentPage === 0}
-      >
+      <StyledButton className="left-btn" onClick={goToPreviousPage} hidden={currentPage === 0}>
         <LeftOutlined />
       </StyledButton>
-      <StyledButton
-        className="right-btn"
-        onClick={goToNextPage}
-        hidden={currentPage === 3}
-      >
+      <StyledButton className="right-btn" onClick={goToNextPage} hidden={currentPage === LAST_PAGE}>
         <RightOutlined />
       </StyledButton>
     </Contents>
   );
 }
 
-ChangePage.propTypes = {
-  //is missing in props validation 에러. 타입 정의. ts쓰면 필요 업음
-  currentPage: PropTypes.number.isRequired,
-  setCurrentPage: PropTypes.func.isRequired,
-};
-
 export function PressContents() {
   const [currentPage, setCurrentPage] = useState(0);
   return (
     <div>
-      <ChangePage currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </div>
   );
 }
@@ -125,16 +100,18 @@ const Contents = styled.div`
   position: relative;
 `;
 
-const StyledButton = styled.button`
+const StyledButton = styled.div`
   position: absolute;
   top: 40%;
   font-size: 50px;
   width: 50px;
   z-index: 1;
   color: #909090;
+
   &.right-btn {
     right: -10%;
   }
+
   &.left-btn {
     left: -10%;
   }
