@@ -2,12 +2,23 @@ import styled from "styled-components";
 import { useState } from "react";
 import PropTypes from 'prop-types';
 import { shuffle } from "../utils/utils";
-import { logoImageSrc } from "../data/newsLogos.json";
+import { news } from "../data/news.json"
 import { Subscription } from "./Subscribe";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const PAGE_SIZE = 24;
-const shuffleLogos = shuffle(logoImageSrc);
+const ALL_LOGS = 96;
+
+function getLogoImage(news) {
+  let newsLogos = [];
+  for (let i = 0; i < ALL_LOGS; i++) {
+    let logoSrc = news[i].logoImageSrc;
+    newsLogos.push(logoSrc)
+  }
+  return newsLogos;
+}
+
+const shuffleLogos = shuffle(getLogoImage(news));
 
 function createGrid(index) {
   if (index < shuffleLogos.length) {
@@ -57,8 +68,7 @@ ChangePage.propTypes = { //is missing in props validation 에러. 타입 정의.
 
 export function PressWithPagination() {
   const [currentPage, setCurrentPage] = useState(0);
-
-  return ( // 여기 press 다른 데에 둬야 리랜더링 안되겠지
+  return (
     <div>
       <ChangePage currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </div>
