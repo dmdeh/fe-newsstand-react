@@ -1,20 +1,22 @@
+import styled from "styled-components";
 import { Header } from "./js/Header/Header";
-import { PressHeader } from "./js/Press/PressHeader";
-import { PressContents } from "./js/Press/Contents/PressContents";
+import { Press } from "./js/Press/PressHeader";
 import { Rollingnews } from "./js/Rollingnews/Rollingnews";
-import "./App.css";
 
 function App() {
   return (
-    <div className="wrap">
+    <Wrap>
       <Header />
       <Rollingnews />
-      <div className="press">
-        <PressHeader />
-        <PressContents />
-      </div>
-    </div>
+      <Press />
+    </Wrap>
   );
 }
+
+const Wrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+`;
 
 export default App;

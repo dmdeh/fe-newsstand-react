@@ -14,12 +14,22 @@ function getLogoImage(news) {
 
 const shuffleLogos = shuffle(getLogoImage(news));
 
-function createGrid(index) {
+/** 전체 언론사*/
+function createGrid(index) { 
+  const [subscribedLogos, setSubscribedLogos] = useState([]);
+
+  const handleSubscription = (logoImage) => {
+    setSubscribedLogos(prevLogos => [...prevLogos, logoImage]);
+  };
+
   if (index < shuffleLogos.length) {
     return (
       <StyledLogo className="press-logo" key={index}>
         <img src={shuffleLogos[index]} alt={`Logo ${index}`} />
-        <Subscription />
+        <Subscription
+          logoImage={shuffleLogos[index]}
+          handleSubscription={handleSubscription}
+        />
       </StyledLogo>
     );
   }
@@ -33,29 +43,58 @@ function renderGrid(page) {
   return gridElements;
 }
 
+function Grid({ currentPage }) {
+  return <StyledGrid>{renderGrid(currentPage)}</StyledGrid>;
+}
+
+/** 내가 구독한 언론사 */
+function createSubGrid(subscribedLogos, index) { 
+  if (index < subscribedLogos.length) {
+    return (
+      <StyledLogo className="press-logo" key={index}>
+        <img src={subscribedLogos[index]} alt={`Logo ${index}`} />
+        <Subscription logoImage={subscribedLogos[index]} />
+      </StyledLogo>
+    );
+  }
+}
+
+function renderSubGrid(page) {
+  const gridElements = [];
+  for (let index = 0; index < PAGE_SIZE; index++) {
+    gridElements.push(createSubGrid(page * PAGE_SIZE + index));
+  }
+  return gridElements;
+}
+
+function SubGrid({ currentPage }) {
+  return <StyledGrid>{renderSubGrid(currentPage)}</StyledGrid>;
+}
+
+
 function Swiper({ currentPage, setCurrentPage }) {
   const goToPreviousPage = () => setCurrentPage((prevPage) => prevPage - 1);
   const goToNextPage = () => setCurrentPage((prevPage) => prevPage + 1);
 
   return (
-    <Contents>
-      <StyledGrid className="press">{renderGrid(currentPage)}</StyledGrid>
+    <>
       <StyledButton className="left-btn" onClick={goToPreviousPage} hidden={currentPage === 0}>
         <LeftOutlined />
       </StyledButton>
       <StyledButton className="right-btn" onClick={goToNextPage} hidden={currentPage === LAST_PAGE}>
         <RightOutlined />
       </StyledButton>
-    </Contents>
+    </>
   );
 }
 
-export function PressContents() {
+export function PressContents({ grid, setGrid }) {
   const [currentPage, setCurrentPage] = useState(0);
   return (
-    <div>
+    <Contents>
+      {grid ? (<Grid currentPage={currentPage} />) : (<SubGrid currentPage={currentPage} />)}
       <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} />
-    </div>
+    </Contents>
   );
 }
 
@@ -100,14 +139,13 @@ const Contents = styled.div`
   position: relative;
 `;
 
-const StyledButton = styled.div`
+const StyledButton = styled.button`
   position: absolute;
   top: 40%;
   font-size: 50px;
   width: 50px;
   z-index: 1;
   color: #909090;
-
   &.right-btn {
     right: -10%;
   }
