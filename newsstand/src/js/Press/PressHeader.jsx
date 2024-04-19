@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { useState } from "react";
-import { PressContents } from "./Contents/PressContents";
+import { PressContents } from "./PressContents/PressContents";
 
 function PressHeader({ setGrid }) {
   const [select, setSelect] = useState('all'); 
+  const [img, setImg] = useState('grid'); 
 
   const allMedia = () => {
     setGrid(true);
@@ -15,6 +16,14 @@ function PressHeader({ setGrid }) {
     setSelect('subscribed'); 
   };
 
+  const gridView = () => {
+    setImg('grid');
+  };
+
+  const listView = () => {
+    setImg('list'); // setList 만들예정
+  };
+
   return (
     <Header>
       <div className="press-title">
@@ -22,11 +31,11 @@ function PressHeader({ setGrid }) {
         <span onClick={subscribedMedia} style={{ fontWeight: select === 'subscribed' ? 'bold' : 'normal' }}>내가 구독한 언론사</span>
       </div>
       <div className="view-btn">
-        <button className="list-view-btn">
-          <img src="./public/img/list_off.png" />
+        <button className="list-view-btn" onClick={listView}>
+          <img src={img === 'list' ? "./public/img/list_on.png": "./public/img/list_off.png"} />
         </button>
-        <button className="grid-view-btn">
-          <img src="./public/img/grid_off.png" />
+        <button className="grid-view-btn" onClick={gridView}>
+          <img src={img === 'grid' ? "./public/img/grid_on.png" : "./public/img/grid_off.png"} />
         </button>
       </div>
     </Header>
@@ -48,7 +57,8 @@ const Header = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 20px 0px;
-
+  height: 30px;
+  
   .press-title span {
     margin-right: 20px;
     font-size: 20px;
