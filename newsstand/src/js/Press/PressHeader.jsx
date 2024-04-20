@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import { useState } from "react";
 import { PressContent } from "./PressContent/PressContent";
+import { BarsOutlined, AppstoreOutlined } from "@ant-design/icons";
 
 function PressHeader({ setGrid }) {
   const [select, setSelect] = useState('all'); 
-  const [img, setImg] = useState('grid'); 
+  const [view, setView] = useState('grid');
 
   const allMedia = () => {
     setGrid(true);
@@ -17,11 +18,11 @@ function PressHeader({ setGrid }) {
   };
 
   const gridView = () => {
-    setImg('grid');
+    setView('grid');
   };
 
   const listView = () => {
-    setImg('list'); // setList 만들예정
+    setView('list'); // setList 만들예정
   };
 
   return (
@@ -31,13 +32,13 @@ function PressHeader({ setGrid }) {
         <span onClick={subscribedMedia} style={{ fontWeight: select === 'subscribed' ? 'bold' : 'normal' }}>내가 구독한 언론사</span>
       </div>
       <div className="view-btn">
-        <button className="list-view-btn" onClick={listView}>
-          <img src={img === 'list' ? "./public/img/list_on.png": "./public/img/list_off.png"} />
-        </button>
-        <button className="grid-view-btn" onClick={gridView}>
-          <img src={img === 'grid' ? "./public/img/grid_on.png" : "./public/img/grid_off.png"} />
-        </button>
-      </div>
+      <StyledButton className="list-view-btn" onClick={listView}>
+        <BarsOutlined style={{ color: view === 'list' ? 'blue' : 'gray' }} />
+      </StyledButton>
+      <StyledButton className="grid-view-btn" onClick={gridView}>
+        <AppstoreOutlined style={{ color: view === 'grid' ? 'blue' : 'gray' }} />
+      </StyledButton>
+    </div>
     </Header>
   );
 }
@@ -72,4 +73,8 @@ const Header = styled.div`
 const PressWrap = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+const StyledButton = styled.button`
+  font-size: 25px;
 `;
