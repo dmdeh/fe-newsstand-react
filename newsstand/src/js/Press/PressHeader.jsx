@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useState } from "react";
-import { PressContents } from "./PressContents/PressContents";
+import { PressContent } from "./PressContent/PressContent";
 
 function PressHeader({ setGrid }) {
   const [select, setSelect] = useState('all'); 
@@ -47,7 +47,7 @@ export function Press() {
   return (
     <PressWrap>
       <PressHeader setGrid={setGrid} />
-      <PressContents grid={grid} setGrid={setGrid} />
+      <PressContent grid={grid} setGrid={setGrid} />
     </PressWrap>
   );
 }

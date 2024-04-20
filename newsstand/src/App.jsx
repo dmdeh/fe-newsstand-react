@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { Header } from "./js/Header/Header";
-import { Rollingnews } from "./js/Rollingnews/Rollingnews";
+import { NewsFlash } from "./js/NewsFlash/NewsFlash";
 import { Press } from "./js/Press/PressHeader";
 
 function App() {
   return (
     <Wrap>
       <Header />
-      <Rollingnews />
+      <NewsFlash />
       <Press />
     </Wrap>
   );

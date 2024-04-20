@@ -88,13 +88,13 @@ function Swiper({ currentPage, setCurrentPage }) {
   );
 }
 
-export function PressContents({ grid, setGrid }) {
+export function PressContent({ grid, setGrid }) {
   const [currentPage, setCurrentPage] = useState(0);
   return (
-    <Contents>
+    <Content>
       {grid ? (<Grid currentPage={currentPage} />) : (<SubGrid currentPage={currentPage} />)}
       <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} />
-    </Contents>
+    </Content>
   );
 }
 
@@ -135,7 +135,7 @@ const StyledLogo = styled.div`
   }
 `;
 
-const Contents = styled.div`
+const Content = styled.div`
   position: relative;
 `;
 
@@ -146,6 +146,7 @@ const StyledButton = styled.button`
   width: 50px;
   z-index: 1;
   color: #909090;
+  
   &.right-btn {
     right: -10%;
   }
