@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { useState, useEffect } from "react";
 
-export function Subscription({ logoImage, handleSubscription }) {
+export function Subscription({ logoImage, handleSubscription, view }) {
   const [isSubscribed, setSubscribed] = useState(false);
 
   useEffect(() => {
@@ -16,14 +16,15 @@ export function Subscription({ logoImage, handleSubscription }) {
   };
 
   return (
-    <StyledButton onClick={handleClick}>
+    <StyledButton onClick={handleClick} 
+    style={{ display: view === 'grid' ? 'none' : 'block', 
+    position: view === 'grid' ? 'absolute' : 'static'}}>
       {isSubscribed ? "+ 해지하기" : "+ 구독하기"}
     </StyledButton>
   );
 }
 
 const StyledButton = styled.button`
-  display: none;
   position: absolute;
   width: 100px;
   height: 30px;

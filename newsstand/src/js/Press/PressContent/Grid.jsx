@@ -13,11 +13,11 @@ function getLogoImage(news) {
 const shuffleLogos = shuffle(getLogoImage(news));
 
 /** 전체 언론사*/
-function createGrid(index, media) { 
+function createGrid(index, media, view) {
   const [subscribedLogos, setSubscribedLogos] = useState([]);
 
   const handleSubscription = (logoImage) => {
-    setSubscribedLogos(prevLogos => [...prevLogos, logoImage]);
+    setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
   };
 
   //all이면 shuffleLogos, subscribed면 subscribedLogos
@@ -27,22 +27,25 @@ function createGrid(index, media) {
     return (
       <StyledLogo className="press-logo" key={index}>
         <img src={logos[index]} alt={`Logo ${index}`} />
-        <Subscription logoImage={logos[index]} handleSubscription={handleSubscription} />
+        <Subscription view={view}
+          logoImage={logos[index]}
+          handleSubscription={handleSubscription}
+        />
       </StyledLogo>
     );
   }
 }
 
-function renderGrid(page, media) {
+function renderGrid(page, media, view) {
   const gridElements = [];
   for (let index = 0; index < PAGE_SIZE; index++) {
-    gridElements.push(createGrid(page * PAGE_SIZE + index, media));
+    gridElements.push(createGrid(page * PAGE_SIZE + index, media, view));
   }
   return gridElements;
 }
 
-export function Grid({ currentPage, media }) {
-  return <StyledGrid>{renderGrid(currentPage, media)}</StyledGrid>;
+export function Grid({ currentPage, media, view }) {
+  return <StyledGrid>{renderGrid(currentPage, media, view)}</StyledGrid>;
 }
 
 const StyledGrid = styled.div`
@@ -81,4 +84,3 @@ const StyledLogo = styled.div`
     height: 2rem;
   }
 `;
-

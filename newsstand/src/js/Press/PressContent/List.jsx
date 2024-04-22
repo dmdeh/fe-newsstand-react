@@ -3,59 +3,60 @@ import { useState } from "react";
 import { news } from "../../../data/news.json";
 import { Subscription } from "./Subscribe";
 
-function Catagory() {
+function Category() {
+  const categegories = new Set(news.map((item) => item.category));
+  const cat = Array.from(categegories);
+
   return (
     <>
-      <CatagoryBtn>종합/경제</CatagoryBtn>
-      <CatagoryBtn>방송통신</CatagoryBtn>
-      <CatagoryBtn>IT</CatagoryBtn>
-      <CatagoryBtn>영자지</CatagoryBtn>
-      <CatagoryBtn>스포츠/연예</CatagoryBtn>
-      <CatagoryBtn>매거진/전문지</CatagoryBtn>
-      <CatagoryBtn>지역</CatagoryBtn>
+      {cat.map((category, index) => (
+        <CategagoryBtn key={index}>{category}</CategagoryBtn>
+      ))}
     </>
   );
 }
 
-function createList(index, media) {
+function createList(index, media, view) {
   // subNews 추가 예정
   // const item = media === "all" ? news[index] : subNews[index];
+
   const item = news[index];
-  const sideNews = item.sideNews.map((newsItem) => (
+  const { logoImageSrc, editedTime, headline, sideNews } = item;
+  const sideNewsList = sideNews.map((newsItem) => (
     <p key={newsItem.title}>{newsItem.title}</p>
   ));
 
   return (
     <>
       <Top>
-        <img src={item.logoImageSrc} />
-        <span>{item.editedTime}</span>
-        <Subscription />
+        <img src={logoImageSrc} />
+        <span>{editedTime}</span>
+        <Subscription view={view} />
       </Top>
       <StyledDesc>
         <Left>
-          <img src={item.headline.thumbnailSrc} />
-          <span>{item.headline.title}</span>
+          <img src={headline.thumbnailSrc} />
+          <span>{headline.title}</span>
         </Left>
-        <Right>{sideNews}</Right>
+        <Right>{sideNewsList}</Right>
       </StyledDesc>
     </>
   );
 }
 
-function renderList(currentPage, media) {
-  return <>{createList(currentPage, media)}</>;
+function renderList(currentPage, media, view) {
+  return <>{createList(currentPage, media, view)}</>;
 }
 
-export function List({ currentPage, media }) {
+export function List({ currentPage, media, view }) {
   return (
     <StyledList>
-      <Catagory />
+      <Category />
       {renderList(currentPage, media)}
     </StyledList>
   );
 }
-const CatagoryBtn = styled.button`
+const CategagoryBtn = styled.button`
   height: 50px;
   font-size: 20px;
   margin: 0px 15px;
@@ -69,13 +70,10 @@ const StyledList = styled.div`
 
 const Top = styled.div`
   display: flex;
-  margin: 20px;
+  margin: 15px;
   align-items: center;
   span {
-    margin-left: 2rem;
-  }
-  Subscription {
-    display: block; // 안먹는다 subscribe에서 수정해야할듯
+    margin: 0px 2rem;
   }
 `;
 
@@ -91,6 +89,7 @@ const Left = styled.div`
   img {
     height: 200px;
     width: 320px;
+    margin: 0px 20px;
   }
   span {
     margin: 20px;
