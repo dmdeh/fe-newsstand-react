@@ -88,11 +88,12 @@ function Swiper({ currentPage, setCurrentPage }) {
   );
 }
 
-export function PressContent({ grid, setGrid }) {
+export function PressContent({ media, view }) {
+  // view 설정 필요. grid인지 list인지
   const [currentPage, setCurrentPage] = useState(0);
   return (
     <Content>
-      {grid ? (<Grid currentPage={currentPage} />) : (<SubGrid currentPage={currentPage} />)}
+      {media === "all" ? (<Grid currentPage={currentPage} />) : (<SubGrid currentPage={currentPage} />)}
       <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </Content>
   );

@@ -1,57 +1,60 @@
 import styled from "styled-components";
 import { useState } from "react";
-import { PressContent } from "./PressContent/PressContent";
 import { BarsOutlined, AppstoreOutlined } from "@ant-design/icons";
+import { PressContent } from "./PressContent/PressContent";
 
-function PressHeader({ setGrid }) {
-  const [select, setSelect] = useState('all'); 
-  const [view, setView] = useState('grid');
+export function Press() {
+  // media & view 값 선언
+  const [media, setMedia] = useState("all"); /** all, subscribed */
+  const [view, setView] = useState("grid"); /** grid, list */
 
+  return (
+    <PressWrap>
+      <PressHeader media={media} setMedia={setMedia} view={view} setView={setView} />
+      <PressContent media={media} view={view} />
+    </PressWrap>
+  );
+}
+
+function PressHeader({ media, setMedia, view, setView }) {
   const allMedia = () => {
-    setGrid(true);
-    setSelect('all');
+    setMedia("all");
   };
 
   const subscribedMedia = () => {
-    setGrid(false);
-    setSelect('subscribed'); 
+    setMedia("subscribed");
   };
 
   const gridView = () => {
-    setView('grid');
+    setView("grid");
   };
 
   const listView = () => {
-    setView('list'); // setList 만들예정
+    setView("list"); // list 필요
   };
 
   return (
     <Header>
       <div className="press-title">
-        <span onClick={allMedia} style={{ fontWeight: select === 'all' ? 'bold' : 'normal' }}>전체 언론사</span>
-        <span onClick={subscribedMedia} style={{ fontWeight: select === 'subscribed' ? 'bold' : 'normal' }}>내가 구독한 언론사</span>
+        <span onClick={allMedia} style={{ fontWeight: media === 'all' ? 'bold' : 'normal' }}>전체 언론사</span>
+        <span onClick={subscribedMedia} style={{ fontWeight: media === 'subscribed' ? 'bold' : 'normal' }}>내가 구독한 언론사</span>
       </div>
-      <div className="view-btn">
+      <StyledDiv>
       <StyledButton className="list-view-btn" onClick={listView}>
         <BarsOutlined style={{ color: view === 'list' ? 'blue' : 'gray' }} />
       </StyledButton>
       <StyledButton className="grid-view-btn" onClick={gridView}>
         <AppstoreOutlined style={{ color: view === 'grid' ? 'blue' : 'gray' }} />
       </StyledButton>
-    </div>
+    </StyledDiv>
     </Header>
   );
 }
 
-export function Press() {
-  const [grid, setGrid] = useState(true);
-  return (
-    <PressWrap>
-      <PressHeader setGrid={setGrid} />
-      <PressContent grid={grid} setGrid={setGrid} />
-    </PressWrap>
-  );
-}
+const PressWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 const Header = styled.div`
   display: flex;
@@ -59,20 +62,15 @@ const Header = styled.div`
   justify-content: space-between;
   margin: 20px 0px;
   height: 30px;
-  
+
   .press-title span {
     margin-right: 20px;
     font-size: 20px;
   }
-
-  .view-btn {
-    display: flex;
-  }
 `;
 
-const PressWrap = styled.div`
+const StyledDiv = styled.div`
   display: flex;
-  flex-direction: column;
 `;
 
 const StyledButton = styled.button`
