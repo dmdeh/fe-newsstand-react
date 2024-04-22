@@ -3,16 +3,16 @@ import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const GRID_LAST_PAGE = 3;
 
-export function Swiper({ currentPage, setCurrentPage }) {
+export function Swiper({ currentPage, setCurrentPage, view }) {
   const goToPreviousPage = () => setCurrentPage((prevPage) => prevPage - 1);
   const goToNextPage = () => setCurrentPage((prevPage) => prevPage + 1);
 
   return (
     <>
-      <StyledButton className="left-btn" onClick={goToPreviousPage} hidden={currentPage === 0}>
+      <StyledButton className="left-btn" onClick={goToPreviousPage} hidden={view === 'grid' && currentPage === 0}>
         <LeftOutlined />
       </StyledButton>
-      <StyledButton className="right-btn" onClick={goToNextPage} hidden={currentPage === GRID_LAST_PAGE}>
+      <StyledButton className="right-btn" onClick={goToNextPage} hidden={view === 'grid' && currentPage === GRID_LAST_PAGE}>
         <RightOutlined />
       </StyledButton>
     </>

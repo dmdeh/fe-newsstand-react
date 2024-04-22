@@ -9,7 +9,7 @@ export function PressContent({ media, view }) {
   return (
     <Content>
       {view === "grid" ? (<Grid currentPage={currentPage} media={media} view={view}/>) : (<List currentPage={currentPage} media={media} view={view}/>)}
-      <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} view={view}/>
     </Content>
   );
 }
