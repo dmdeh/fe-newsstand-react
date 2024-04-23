@@ -4,7 +4,7 @@ import { Grid } from "./Grid";
 import { List } from "./List";
 import { Swiper } from "./Swiper";
 
-export function PressContent({ media, view }) {
+export function PressContent({ media, viewType }) {
   const [currentPage, setCurrentPage] = useState(0);
   const [news, setNews] = useState([]);
 
@@ -18,13 +18,16 @@ export function PressContent({ media, view }) {
         console.error("Error fetching news:", error);
       }
     }
-
     fetchData();
   }, []);
+
   return (
     <Content>
-      {view === "grid" ? (<Grid news={news} currentPage={currentPage} media={media} view={view}/>) : (<List news={news} currentPage={currentPage} media={media} view={view}/>)}
-      <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} view={view}/>
+      {viewType === "grid" ? (
+      <Grid news={news} currentPage={currentPage} media={media} viewType={viewType} />) 
+        : (<List news={news} currentPage={currentPage} media={media} viewType={viewType} />
+        )}
+      <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} viewType={viewType}/>
     </Content>
   );
 }

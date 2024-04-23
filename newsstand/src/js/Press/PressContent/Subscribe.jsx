@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { useState, useEffect } from "react";
 
-export function Subscription({ logoImage, handleSubscription, view }) {
+export function Subscription({ logoImage, handleSubscription, viewType }) {
   const [isSubscribed, setSubscribed] = useState(false);
 
   useEffect(() => {
@@ -18,8 +18,8 @@ export function Subscription({ logoImage, handleSubscription, view }) {
   return (
     <StyledButton
       onClick={handleClick}
-      hidden={view === "grid"}
-      style={{ position: view === "grid" ? "absolute" : "static" }}
+      hidden={viewType === "grid"}
+      style={{ position: viewType === "grid" ? "absolute" : "static" }}
     >
       {isSubscribed ? "+ 해지하기" : "+ 구독하기"}
     </StyledButton>

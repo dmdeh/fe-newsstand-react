@@ -16,9 +16,9 @@ function Category() {
   );
 }
 
-function createList(index, media, view, news) {
+function createList(index, media, viewType, news) {
   // subNews 추가 예정
-  // const item = media === "all" ? news[index] : subNews[index];
+  // const item = media === "allMedia" ? news[index] : subNews[index];
 
   const item = news[index];
   const { logoImageSrc, editedTime, headline, sideNews } = item;
@@ -37,7 +37,7 @@ function createList(index, media, view, news) {
         <img src={logoImageSrc} />
         <span>{editedTime}</span>
         <Subscription
-          view={view}
+          viewType={viewType}
           logoImage={logoImageSrc}
           handleSubscription={handleSubscription}
         />
@@ -53,15 +53,15 @@ function createList(index, media, view, news) {
   );
 }
 
-function renderList(currentPage, media, view, news) {
-  return <>{createList(currentPage, media, view, news)}</>;
+function renderList(currentPage, media, viewType, news) {
+  return <>{createList(currentPage, media, viewType, news)}</>;
 }
 
-export function List({ currentPage, media, view, news }) {
+export function List({ currentPage, media, viewType, news }) {
   return (
     <StyledList>
       <Category />
-      {renderList(currentPage, media, view, news)}
+      {renderList(currentPage, media, viewType, news)}
     </StyledList>
   );
 }

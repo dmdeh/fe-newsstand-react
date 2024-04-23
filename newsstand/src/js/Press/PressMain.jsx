@@ -3,50 +3,50 @@ import { useState } from "react";
 import { BarsOutlined, AppstoreOutlined } from "@ant-design/icons";
 import { PressContent } from "./PressContent/PressContent";
 
-export function Press({news}) {
+export function Press({ news }) {
   // media & view 값 선언
-  const [media, setMedia] = useState("all"); /** all, subscribed */
-  const [view, setView] = useState("grid"); /** grid, list */
+  const [media, setMedia] = useState("allMedia"); /** all, subscribed */
+  const [viewType, setViewType] = useState("grid"); /** grid, list */
 
   return (
     <PressWrap>
-      <PressHeader media={media} setMedia={setMedia} view={view} setView={setView} />
-      <PressContent media={media} view={view} news={news} />
+      <PressHeader media={media} setMedia={setMedia} viewType={viewType} setViewType={setViewType} />
+      <PressContent media={media} viewType={viewType} news={news} />
     </PressWrap>
   );
 }
 
-function PressHeader({ media, setMedia, view, setView }) {
+function PressHeader({ media, setMedia, viewType, setViewType }) {
   const allMedia = () => {
-    setMedia("all");
+    setMedia("allMedia");
   };
 
   const subscribedMedia = () => {
-    setMedia("subscribed");
+    setMedia("subscribedMedia");
   };
 
   const gridView = () => {
-    setView("grid");
+    setViewType("grid");
   };
 
   const listView = () => {
-    setView("list"); // list 필요
+    setViewType("list"); // list 필요
   };
 
   return (
     <Header>
       <div className="press-title">
-        <span onClick={allMedia} style={{ fontWeight: media === 'all' ? 'bold' : 'normal' }}>전체 언론사</span>
-        <span onClick={subscribedMedia} style={{ fontWeight: media === 'subscribed' ? 'bold' : 'normal' }}>내가 구독한 언론사</span>
+        <span onClick={allMedia} style={{ fontWeight: media === "allMedia" ? "bold" : "normal" }}>전체 언론사</span>
+        <span onClick={subscribedMedia} style={{ fontWeight: media === "subscribedMedia" ? "bold" : "normal"}}>내가 구독한 언론사</span>
       </div>
       <StyledDiv>
-      <StyledButton className="list-view-btn" onClick={listView}>
-        <BarsOutlined style={{ color: view === 'list' ? 'blue' : 'gray' }} />
-      </StyledButton>
-      <StyledButton className="grid-view-btn" onClick={gridView}>
-        <AppstoreOutlined style={{ color: view === 'grid' ? 'blue' : 'gray' }} />
-      </StyledButton>
-    </StyledDiv>
+        <StyledButton className="list-view-btn" onClick={listView}>
+          <BarsOutlined style={{ color: viewType === "list" ? "blue" : "gray" }} />
+        </StyledButton>
+        <StyledButton className="grid-view-btn" onClick={gridView}>
+          <AppstoreOutlined style={{ color: viewType === "grid" ? "blue" : "gray" }} />
+        </StyledButton>
+      </StyledDiv>
     </Header>
   );
 }
