@@ -16,7 +16,7 @@ function Category() {
   );
 }
 
-function createList(index, media, view) {
+function createList(index, media, view, news) {
   // subNews 추가 예정
   // const item = media === "all" ? news[index] : subNews[index];
 
@@ -53,21 +53,21 @@ function createList(index, media, view) {
   );
 }
 
-function renderList(currentPage, media, view) {
-  return <>{createList(currentPage, media, view)}</>;
+function renderList(currentPage, media, view, news) {
+  return <>{createList(currentPage, media, view, news)}</>;
 }
 
-export function List({ currentPage, media, view }) {
+export function List({ currentPage, media, view, news }) {
   return (
     <StyledList>
       <Category />
-      {renderList(currentPage, media)}
+      {renderList(currentPage, media, view, news)}
     </StyledList>
   );
 }
 
 const StyledCategagory = styled.div`
-  background: #d5d5d5;
+  background: #ececec;
 `;
 
 const CategagoryBtn = styled.button`

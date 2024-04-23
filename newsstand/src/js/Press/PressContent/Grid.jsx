@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { shuffle } from "../../../utils/utils";
-import { news } from "../../../data/news.json";
 import { Subscription } from "./Subscribe";
 
 const PAGE_SIZE = 24;
@@ -10,18 +9,26 @@ function getLogoImage(news) {
   return news.map((item) => item.logoImageSrc);
 }
 
-const shuffleLogos = shuffle(getLogoImage(news));
+const shuffleLogos = (news) => shuffle(getLogoImage(news));
 
 /** 전체 언론사*/
-function createGrid(index, media, view) {
+function createGrid(index, media, view, news) {
   const [subscribedLogos, setSubscribedLogos] = useState([]);
+  const [allLogos, setAllLogos] = useState([]);
 
   const handleSubscription = (logoImage) => {
-    setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
+    if (!subscribedLogos.includes(logoImage)) {
+      setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
+    }
   };
 
-  //all이면 shuffleLogos, subscribed면 subscribedLogos
-  const logos = media === "all" ? shuffleLogos : subscribedLogos;
+  useEffect(() => {
+    if (media === "all") {
+      setAllLogos(shuffleLogos(news));
+    }
+  }, [media, news]);
+
+  const logos = media === "all" ? allLogos : subscribedLogos;
 
   if (index < logos.length) {
     return (
@@ -37,16 +44,16 @@ function createGrid(index, media, view) {
   }
 }
 
-function renderGrid(page, media, view) {
+function renderGrid(page, media, view, news) {
   const gridElements = [];
   for (let index = 0; index < PAGE_SIZE; index++) {
-    gridElements.push(createGrid(page * PAGE_SIZE + index, media, view));
+    gridElements.push(createGrid(page * PAGE_SIZE + index, media, view, news));
   }
   return gridElements;
 }
 
-export function Grid({ currentPage, media, view }) {
-  return <StyledGrid>{renderGrid(currentPage, media, view)}</StyledGrid>;
+export function Grid({ currentPage, media, view, news }) {
+  return <StyledGrid>{renderGrid(currentPage, media, view, news)}</StyledGrid>;
 }
 
 const StyledGrid = styled.div`

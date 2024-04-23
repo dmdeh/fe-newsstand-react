@@ -3,7 +3,7 @@ import { useState } from "react";
 import { BarsOutlined, AppstoreOutlined } from "@ant-design/icons";
 import { PressContent } from "./PressContent/PressContent";
 
-export function Press() {
+export function Press({news}) {
   // media & view 값 선언
   const [media, setMedia] = useState("all"); /** all, subscribed */
   const [view, setView] = useState("grid"); /** grid, list */
@@ -11,7 +11,7 @@ export function Press() {
   return (
     <PressWrap>
       <PressHeader media={media} setMedia={setMedia} view={view} setView={setView} />
-      <PressContent media={media} view={view} />
+      <PressContent media={media} view={view} news={news} />
     </PressWrap>
   );
 }
