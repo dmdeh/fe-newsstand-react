@@ -8,11 +8,11 @@ function Category() {
   const cat = Array.from(categegories);
 
   return (
-    <>
+    <StyledCategagory>
       {cat.map((category, index) => (
         <CategagoryBtn key={index}>{category}</CategagoryBtn>
       ))}
-    </>
+    </StyledCategagory>
   );
 }
 
@@ -25,13 +25,22 @@ function createList(index, media, view) {
   const sideNewsList = sideNews.map((newsItem) => (
     <p key={newsItem.title}>{newsItem.title}</p>
   ));
+  const [subscribedLogos, setSubscribedLogos] = useState([]);
+
+  const handleSubscription = (logoImage) => {
+    setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
+  };
 
   return (
     <>
       <Top>
         <img src={logoImageSrc} />
         <span>{editedTime}</span>
-        <Subscription view={view} />
+        <Subscription
+          view={view}
+          logoImage={logoImageSrc}
+          handleSubscription={handleSubscription}
+        />
       </Top>
       <StyledDesc>
         <Left>
@@ -56,7 +65,13 @@ export function List({ currentPage, media, view }) {
     </StyledList>
   );
 }
+
+const StyledCategagory = styled.div`
+  background: #d5d5d5;
+`;
+
 const CategagoryBtn = styled.button`
+  color: #5c5c5c;
   height: 50px;
   font-size: 20px;
   margin: 0px 15px;

@@ -5,7 +5,7 @@ export function Subscription({ logoImage, handleSubscription, view }) {
   const [isSubscribed, setSubscribed] = useState(false);
 
   useEffect(() => {
-    console.log("구독", isSubscribed, logoImage);
+    // console.log("구독", isSubscribed, logoImage);
     if (isSubscribed) {
       handleSubscription(logoImage);
     }
@@ -16,9 +16,11 @@ export function Subscription({ logoImage, handleSubscription, view }) {
   };
 
   return (
-    <StyledButton onClick={handleClick} 
-    style={{ display: view === 'grid' ? 'none' : 'block', 
-    position: view === 'grid' ? 'absolute' : 'static'}}>
+    <StyledButton
+      onClick={handleClick}
+      hidden={view === "grid"}
+      style={{ position: view === "grid" ? "absolute" : "static" }}
+    >
       {isSubscribed ? "+ 해지하기" : "+ 구독하기"}
     </StyledButton>
   );
@@ -35,6 +37,7 @@ const StyledButton = styled.button`
   background: white;
   border: 1px solid #d3d9df;
   border-radius: 20px;
+  display: ${(props) => (props.hidden ? "none" : "block")};
 `;
 
 export default Subscription;

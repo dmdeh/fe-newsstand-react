@@ -27,7 +27,8 @@ function createGrid(index, media, view) {
     return (
       <StyledLogo className="press-logo" key={index}>
         <img src={logos[index]} alt={`Logo ${index}`} />
-        <Subscription view={view}
+        <Subscription
+          view={view}
           logoImage={logos[index]}
           handleSubscription={handleSubscription}
         />
@@ -71,7 +72,7 @@ const StyledLogo = styled.div`
     > button {
       display: block;
     }
-    img {
+    > img {
       visibility: hidden;
     }
   }
