@@ -7,7 +7,7 @@ import { Swiper } from "./Swiper";
 export function PressContent({ media, viewType }) {
   const [currentPage, setCurrentPage] = useState(0);
   const [news, setNews] = useState([]);
-
+  
   useEffect(() => {
     async function fetchData() {
       try {
@@ -27,7 +27,7 @@ export function PressContent({ media, viewType }) {
       <Grid news={news} currentPage={currentPage} media={media} viewType={viewType} />) 
         : (<List news={news} currentPage={currentPage} media={media} viewType={viewType} />
         )}
-      <Swiper currentPage={currentPage} setCurrentPage={setCurrentPage} viewType={viewType}/>
+      <Swiper news={news} currentPage={currentPage} setCurrentPage={setCurrentPage} media={media} viewType={viewType}/>
     </Content>
   );
 }

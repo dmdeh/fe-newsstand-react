@@ -3,10 +3,12 @@ import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const GRID_LAST_PAGE = 3;
 
-export function Swiper({ currentPage, setCurrentPage, viewType }) {
-  const goToPreviousPage = () => setCurrentPage((prevPage) => prevPage - 1);
-  const goToNextPage = () => setCurrentPage((prevPage) => prevPage + 1);
+export function Swiper({ currentPage, setCurrentPage, media, viewType, news }) {
+  const LIST_LAST_PAGE = news.length - 1;
 
+  const goToPreviousPage = () => setCurrentPage(currentPage === 0 ? LIST_LAST_PAGE : currentPage - 1);
+  const goToNextPage = () => setCurrentPage(currentPage === LIST_LAST_PAGE ? 0 : currentPage + 1);
+  
   return (
     <>
       <StyledButton className="left-btn" onClick={goToPreviousPage} hidden={viewType === 'grid' && currentPage === 0}>
