@@ -14,20 +14,22 @@ function Category({ setCurrentPage, news }) {
     const firstCategoryIndex = getFirstCategoryIndex(category);
     setCurrentPage(firstCategoryIndex);
     setActiveCategory(category);
-
   };
 
   return (
     <StyledCategory>
       {categories.map((category, index) => (
-        <CategoryBtn key={index} onClick={() => handleCategoryClick(category)} active={category === activeCategory}>
+        <CategoryBtn
+          key={index}
+          onClick={() => handleCategoryClick(category)}
+          active={category === activeCategory}
+        >
           {category}
         </CategoryBtn>
       ))}
     </StyledCategory>
   );
 }
-
 
 function createList(currentPage, media, viewType, news, subNews) {
   // subNews 추가 예정 media all인지 sub인지
@@ -69,7 +71,7 @@ function renderList(currentPage, media, viewType, news, subNews) {
   return <>{createList(currentPage, media, viewType, news, subNews)}</>;
 }
 
-export function List({ currentPage, setCurrentPage, media, viewType, news, subNews }) {
+export function List({ currentPage, setCurrentPage, media, viewType, news, subNews}) {
   return (
     <StyledList>
       <Category setCurrentPage={setCurrentPage} news={news} />
@@ -87,7 +89,9 @@ const CategoryBtn = styled.button`
   height: 50px;
   font-size: 20px;
   padding: 0px 15px;
-  ${(props) => props.active && `
+  ${(props) =>
+    props.active &&
+    `
     color: white;
     background: #6f6fff;
     padding: 0px 100px;

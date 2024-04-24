@@ -1,20 +1,35 @@
 import { styled } from "styled-components";
 import { useState, useEffect } from "react";
 
-export function Subscription({ logoImage, setSubscribedLogos, viewType }) {
+export function Subscription({ id, logoImage, setSubscribedLogos, viewType }) {
   const [isSubscribed, setSubscribed] = useState(false);
+  const [postId, setPostId] = useState(null);
 
   useEffect(() => {
     if (isSubscribed) {
-      console.log("구독", isSubscribed, logoImage);
+      console.log("구독", isSubscribed, id, logoImage);
       setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
+    }
+  }, [isSubscribed, logoImage, setSubscribedLogos]);
+
+  useEffect(() => {
+    if (isSubscribed) {
+      const request = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: id }),
+      };
+
+      fetch("http://localhost:3000/api/users/channels", request)
+        .then((response) => response.json())
+        .then((data) => setPostId(data.id));
     }
   }, [isSubscribed]);
 
   const handleClick = () => {
     if(!isSubscribed) alert("구독한 언론사에 추가되었습니다.");
     setSubscribed(!isSubscribed);
-  }
+  };
 
   return (
     <StyledButton

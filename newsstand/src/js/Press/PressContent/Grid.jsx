@@ -5,32 +5,33 @@ import { Subscription } from "./Subscribe";
 
 const PAGE_SIZE = 24;
 
-function getLogoImage(news) {
-  return news.map((item) => item.logoImageSrc);
+function getNews(news) {
+  return news.map((item) => ({ id: item.id, logoImageSrc: item.logoImageSrc }));
 }
 
-const shuffleLogos = (news) => shuffle(getLogoImage(news));
+const shuffleLogosWithId = (news) => shuffle(getNews(news));
 
 function createGrid(index, media, viewType, news, subNews) {
-  const [subscribedLogos, setSubscribedLogos] = useState([]);
   const [allLogos, setAllLogos] = useState([]);
-
+  const [subscribedLogos, setSubscribedLogos] = useState([]);
 
   useEffect(() => {
     if (media === "allMedia") {
-      setAllLogos(shuffleLogos(news));
-    }
-  }, [news]);
+      setAllLogos(shuffleLogosWithId(news));
+    } else setSubscribedLogos(getNews(subNews));
+  }, [news, subNews]);
 
   const logos = media === "allMedia" ? allLogos : subscribedLogos;
 
   if (index < logos.length) {
+    const { id, logoImageSrc } = logos[index];
     return (
       <StyledLogo className="press-logo" key={index}>
-        <img src={logos[index]} alt={`Logo ${index}`} />
+        <img src={logoImageSrc} alt={id} />
         <Subscription
+          id={id}
           viewType={viewType}
-          logoImage={logos[index]}
+          logoImage={logoImageSrc}
           setSubscribedLogos={setSubscribedLogos}
         />
       </StyledLogo>
@@ -41,13 +42,19 @@ function createGrid(index, media, viewType, news, subNews) {
 function renderGrid(page, media, viewType, news, subNews) {
   const gridElements = [];
   for (let index = 0; index < PAGE_SIZE; index++) {
-    gridElements.push(createGrid(page * PAGE_SIZE + index, media, viewType, news, subNews));
+    gridElements.push(
+      createGrid(page * PAGE_SIZE + index, media, viewType, news, subNews)
+    );
   }
   return gridElements;
 }
 
 export function Grid({ currentPage, media, viewType, news, subNews }) {
-  return <StyledGrid>{renderGrid(currentPage, media, viewType, news, subNews)}</StyledGrid>;
+  return (
+    <StyledGrid>
+      {renderGrid(currentPage, media, viewType, news, subNews)}
+    </StyledGrid>
+  );
 }
 
 const StyledGrid = styled.div`

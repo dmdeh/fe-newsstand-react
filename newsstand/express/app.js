@@ -23,13 +23,11 @@ app.get("/api/channels", (req, res) => {
 });
 
 app.get("/api/users/channels", (req, res) => {
-  res.send(data.subscribe);
+  res.send(data.news.filter((item) => data.subscribe.includes(item.id)));
 });
 
 app.post("/api/users/channels", (req, res) => {
-  const channel = {
-    id: req.body.id,
-  };
-  data.subscribe.push(channel);
+  console.log("post " + req.body.id);
+  data.subscribe.push(req.body.id);
   res.send(data.subscribe);
 });
