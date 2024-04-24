@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Subscription } from "./Subscribe";
 
 function Category({ setCurrentPage, news }) {
+  const [activeCategory, setActiveCategory] = useState(null);
   const categories = Array.from(new Set(news.map((item) => item.category)));
 
   function getFirstCategoryIndex(category) {
@@ -12,12 +13,14 @@ function Category({ setCurrentPage, news }) {
   const handleCategoryClick = (category) => {
     const firstCategoryIndex = getFirstCategoryIndex(category);
     setCurrentPage(firstCategoryIndex);
+    setActiveCategory(category);
+
   };
 
   return (
     <StyledCategory>
       {categories.map((category, index) => (
-        <CategoryBtn key={index} onClick={() => handleCategoryClick(category)}>
+        <CategoryBtn key={index} onClick={() => handleCategoryClick(category)} active={category === activeCategory}>
           {category}
         </CategoryBtn>
       ))}
@@ -83,7 +86,12 @@ const CategoryBtn = styled.button`
   color: #5c5c5c;
   height: 50px;
   font-size: 20px;
-  margin: 0px 15px;
+  padding: 0px 15px;
+  ${(props) => props.active && `
+    color: white;
+    background: #6f6fff;
+    padding: 0px 100px;
+  `}
 `;
 
 const StyledList = styled.div`
