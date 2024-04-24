@@ -7,6 +7,7 @@ import { Swiper } from "./Swiper";
 export function PressContent({ media, viewType }) {
   const [currentPage, setCurrentPage] = useState(0);
   const [news, setNews] = useState([]);
+  const [subNews, setSubNews] = useState([]);
   
   useEffect(() => {
     async function fetchData() {
@@ -21,11 +22,24 @@ export function PressContent({ media, viewType }) {
     fetchData();
   }, []);
 
+  useEffect(() => {
+    async function fetchSubData() {
+      try {
+        const response = await fetch("http://localhost:3000/api/users/channels");
+        const data = await response.json();
+        setSubNews(data);
+      } catch (error) {
+        console.error("Error fetching news:", error);
+      }
+    }
+    fetchSubData();
+  }, []);
+
   return (
     <Content>
       {viewType === "grid" ? (
-      <Grid news={news} currentPage={currentPage} media={media} viewType={viewType} />) 
-        : (<List news={news} currentPage={currentPage} media={media} viewType={viewType} />
+      <Grid news={news} subNews={subNews} currentPage={currentPage} media={media} viewType={viewType} />) 
+        : (<List news={news} subNews={subNews} currentPage={currentPage} media={media} viewType={viewType} />
         )}
       <Swiper news={news} currentPage={currentPage} setCurrentPage={setCurrentPage} media={media} viewType={viewType}/>
     </Content>

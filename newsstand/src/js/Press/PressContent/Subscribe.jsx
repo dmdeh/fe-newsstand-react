@@ -1,19 +1,17 @@
 import { styled } from "styled-components";
 import { useState, useEffect } from "react";
 
-export function Subscription({ logoImage, handleSubscription, viewType }) {
+export function Subscription({ logoImage, setSubscribedLogos, viewType }) {
   const [isSubscribed, setSubscribed] = useState(false);
 
   useEffect(() => {
-    // console.log("구독", isSubscribed, logoImage);
     if (isSubscribed) {
-      handleSubscription(logoImage);
+      console.log("구독", isSubscribed, logoImage);
+      setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
     }
   }, [isSubscribed]);
 
-  const handleClick = () => {
-    setSubscribed(!isSubscribed);
-  };
+  const handleClick = () => setSubscribed(!isSubscribed);
 
   return (
     <StyledButton

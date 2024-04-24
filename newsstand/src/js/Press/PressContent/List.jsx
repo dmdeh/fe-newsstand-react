@@ -1,30 +1,39 @@
 import styled from "styled-components";
 import { useState } from "react";
-import { news } from "../../../data/news.json";
 import { Subscription } from "./Subscribe";
 
-function Category() {
-  const categegories = new Set(news.map((item) => item.category));
-  const cat = Array.from(categegories);
+function Category({ news }) {
+  const categories = Array.from(new Set(news.map((item) => item.category)));
+
+  function getFirstCategoryIndex(category) {
+    return news.findIndex((item) => item.category === category);
+  }
+
+  const handleCategoryClick = (category) => {
+    const firstCategoryIndex = getFirstCategoryIndex(category);
+    console.log(`${category}: ${firstCategoryIndex}`);
+  };
 
   return (
-    <StyledCategagory>
-      {cat.map((category, index) => (
-        <CategagoryBtn key={index}>{category}</CategagoryBtn>
+    <StyledCategory>
+      {categories.map((category, index) => (
+        <CategoryBtn key={index} onClick={() => handleCategoryClick(category)}>
+          {category}
+        </CategoryBtn>
       ))}
-    </StyledCategagory>
+    </StyledCategory>
   );
 }
 
-function createList(index, media, viewType, news) {
-  // subNews 추가 예정
-  // const item = media === "allMedia" ? news[index] : subNews[index];
 
-  const item = news[index];
+function createList(currentPage, media, viewType, news, subNews) {
+  // subNews 추가 예정 media all인지 sub인지
+  const item = news[currentPage];
   const { logoImageSrc, editedTime, headline, sideNews } = item;
   const sideNewsList = sideNews.map((newsItem) => (
     <p key={newsItem.title}>{newsItem.title}</p>
   ));
+
   const [subscribedLogos, setSubscribedLogos] = useState([]);
 
   const handleSubscription = (logoImage) => {
@@ -53,24 +62,24 @@ function createList(index, media, viewType, news) {
   );
 }
 
-function renderList(currentPage, media, viewType, news) {
-  return <>{createList(currentPage, media, viewType, news)}</>;
+function renderList(currentPage, media, viewType, news, subNews) {
+  return <>{createList(currentPage, media, viewType, news, subNews)}</>;
 }
 
-export function List({ currentPage, media, viewType, news }) {
+export function List({ currentPage, media, viewType, news, subNews }) {
   return (
     <StyledList>
-      <Category />
-      {renderList(currentPage, media, viewType, news)}
+      <Category currentPage={currentPage} news={news} />
+      {renderList(currentPage, media, viewType, news, subNews)}
     </StyledList>
   );
 }
 
-const StyledCategagory = styled.div`
+const StyledCategory = styled.div`
   background: #ececec;
 `;
 
-const CategagoryBtn = styled.button`
+const CategoryBtn = styled.button`
   color: #5c5c5c;
   height: 50px;
   font-size: 20px;
