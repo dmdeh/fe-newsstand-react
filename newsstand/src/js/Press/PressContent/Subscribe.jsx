@@ -11,7 +11,10 @@ export function Subscription({ logoImage, setSubscribedLogos, viewType }) {
     }
   }, [isSubscribed]);
 
-  const handleClick = () => setSubscribed(!isSubscribed);
+  const handleClick = () => {
+    if(!isSubscribed) alert("구독한 언론사에 추가되었습니다.");
+    setSubscribed(!isSubscribed);
+  }
 
   return (
     <StyledButton

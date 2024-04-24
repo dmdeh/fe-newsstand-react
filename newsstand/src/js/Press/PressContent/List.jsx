@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import { Subscription } from "./Subscribe";
 
-function Category({ news }) {
+function Category({ setCurrentPage, news }) {
   const categories = Array.from(new Set(news.map((item) => item.category)));
 
   function getFirstCategoryIndex(category) {
@@ -11,7 +11,7 @@ function Category({ news }) {
 
   const handleCategoryClick = (category) => {
     const firstCategoryIndex = getFirstCategoryIndex(category);
-    console.log(`${category}: ${firstCategoryIndex}`);
+    setCurrentPage(firstCategoryIndex);
   };
 
   return (
@@ -66,10 +66,10 @@ function renderList(currentPage, media, viewType, news, subNews) {
   return <>{createList(currentPage, media, viewType, news, subNews)}</>;
 }
 
-export function List({ currentPage, media, viewType, news, subNews }) {
+export function List({ currentPage, setCurrentPage, media, viewType, news, subNews }) {
   return (
     <StyledList>
-      <Category currentPage={currentPage} news={news} />
+      <Category setCurrentPage={setCurrentPage} news={news} />
       {renderList(currentPage, media, viewType, news, subNews)}
     </StyledList>
   );

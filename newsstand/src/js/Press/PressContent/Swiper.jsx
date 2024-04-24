@@ -3,7 +3,7 @@ import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const GRID_LAST_PAGE = 3;
 
-export function Swiper({ currentPage, setCurrentPage, media, viewType, news }) {
+export function Swiper({ currentPage, setCurrentPage, viewType, news }) {
   const LIST_LAST_PAGE = news.length - 1;
 
   const goToPreviousPage = () => setCurrentPage(currentPage === 0 ? LIST_LAST_PAGE : currentPage - 1);

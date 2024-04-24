@@ -39,9 +39,9 @@ export function PressContent({ media, viewType }) {
     <Content>
       {viewType === "grid" ? (
       <Grid news={news} subNews={subNews} currentPage={currentPage} media={media} viewType={viewType} />) 
-        : (<List news={news} subNews={subNews} currentPage={currentPage} media={media} viewType={viewType} />
+        : (<List news={news} subNews={subNews} currentPage={currentPage} setCurrentPage={setCurrentPage} media={media} viewType={viewType} />
         )}
-      <Swiper news={news} currentPage={currentPage} setCurrentPage={setCurrentPage} media={media} viewType={viewType}/>
+      <Swiper news={news} currentPage={currentPage} setCurrentPage={setCurrentPage} viewType={viewType}/>
     </Content>
   );
 }
