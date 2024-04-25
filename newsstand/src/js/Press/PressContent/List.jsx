@@ -32,9 +32,10 @@ function Category({ setCurrentPage, news }) {
 }
 
 function createList(currentPage, media, viewType, news, subNews) {
-  const item = media === "allMedia" ? news[currentPage] : subNews[currentPage];
+  const item = media === "allMedia" ? news[currentPage] : (subNews.length !== 0 ? subNews[currentPage] : news[currentPage]);
 
   const { logoImageSrc, editedTime, headline, sideNews } = item;
+
   const sideNewsList = sideNews.map((newsItem) => (
     <p key={newsItem.title}>{newsItem.title}</p>
   ));

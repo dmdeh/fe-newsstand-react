@@ -14,14 +14,13 @@ const shuffleLogosWithId = (news) => shuffle(getNews(news));
 function createGrid(index, media, viewType, news, subNews) {
   const [allLogos, setAllLogos] = useState([]);
   const [subscribedLogos, setSubscribedLogos] = useState([]);
+  const logos = media === "allMedia" ? allLogos : (subNews.length !== 0 ? subscribedLogos : allLogos);
 
   useEffect(() => {
     if (media === "allMedia") {
       setAllLogos(shuffleLogosWithId(news));
     } else setSubscribedLogos(getNews(subNews));
   }, [news, subNews]);
-
-  const logos = media === "allMedia" ? allLogos : subscribedLogos;
 
   if (index < logos.length) {
     const { id, logoImageSrc } = logos[index];

@@ -4,7 +4,6 @@ import { BarsOutlined, AppstoreOutlined } from "@ant-design/icons";
 import { PressContent } from "./PressContent/PressContent";
 
 export function Press() {
-  // media & view 값 선언
   const [media, setMedia] = useState("allMedia");   /** all, subscribed */
   const [viewType, setViewType] = useState("grid"); /** grid, list */
   const [news, setNews] = useState([]);             /** news data */
@@ -45,11 +44,16 @@ function PressHeader({ media, setMedia, viewType, setViewType, setSubNews }) {
 
   const subscribedMedia = async () => {
     setMedia("subscribedMedia");
-
+  
     try {
       const response = await fetch("http://localhost:3000/api/users/channels");
       const data = await response.json();
       setSubNews(data);
+  
+      if (data.length === 0) {
+        allMedia();
+        alert("구독한 언론사가 없습니다.");
+      }
     } catch (error) {
       console.error("Error fetching subscribed news:", error);
     }
@@ -62,7 +66,7 @@ function PressHeader({ media, setMedia, viewType, setViewType, setSubNews }) {
   const listView = () => {
     setViewType("list"); 
   };
-
+  
   return (
     <Header>
       <div className="press-title">
