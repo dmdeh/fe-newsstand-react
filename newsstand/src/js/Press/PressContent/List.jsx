@@ -22,7 +22,7 @@ function Category({ setCurrentPage, news }) {
         <CategoryBtn
           key={index}
           onClick={() => handleCategoryClick(category)}
-          active={category === activeCategory}
+          $active={category === activeCategory ? "true" : "false"}
         >
           {category}
         </CategoryBtn>
@@ -71,7 +71,14 @@ function renderList(currentPage, media, viewType, news, subNews) {
   return <>{createList(currentPage, media, viewType, news, subNews)}</>;
 }
 
-export function List({ currentPage, setCurrentPage, media, viewType, news, subNews}) {
+export function List({
+  currentPage,
+  setCurrentPage,
+  media,
+  viewType,
+  news,
+  subNews,
+}) {
   return (
     <StyledList>
       <Category setCurrentPage={setCurrentPage} news={news} />
@@ -89,8 +96,7 @@ const CategoryBtn = styled.button`
   height: 50px;
   font-size: 20px;
   padding: 0px 15px;
-  ${(props) =>
-    props.active &&
+  ${(props) => props.$active === "true" &&
     `
     color: white;
     background: #6f6fff;
