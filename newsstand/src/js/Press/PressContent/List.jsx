@@ -32,18 +32,14 @@ function Category({ setCurrentPage, news }) {
 }
 
 function createList(currentPage, media, viewType, news, subNews) {
-  // subNews 추가 예정 media all인지 sub인지
-  const item = news[currentPage];
+  const item = media === "allMedia" ? news[currentPage] : subNews[currentPage];
+  // subNews 없을 때 처리 
   const { logoImageSrc, editedTime, headline, sideNews } = item;
   const sideNewsList = sideNews.map((newsItem) => (
     <p key={newsItem.title}>{newsItem.title}</p>
   ));
 
   const [subscribedLogos, setSubscribedLogos] = useState([]);
-
-  const handleSubscription = (logoImage) => {
-    setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
-  };
 
   return (
     <>
@@ -53,7 +49,7 @@ function createList(currentPage, media, viewType, news, subNews) {
         <Subscription
           viewType={viewType}
           logoImage={logoImageSrc}
-          handleSubscription={handleSubscription}
+          setSubscribedLogos={setSubscribedLogos}
         />
       </Top>
       <StyledDesc>

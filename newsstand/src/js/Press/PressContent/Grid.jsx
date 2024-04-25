@@ -75,6 +75,7 @@ const StyledLogo = styled.div`
   text-align: center;
   background: white;
   position: relative;
+  max-height: 80px;
   &:hover {
     background: #f6f7f9;
     > button {
