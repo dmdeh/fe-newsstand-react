@@ -2,6 +2,15 @@ import styled from "styled-components";
 import { useState } from "react";
 import { Subscription } from "./Subscribe";
 
+export function List({ currentPage,setCurrentPage, media, viewType, news, subNews }) {
+  return (
+    <StyledList>
+      <Category setCurrentPage={setCurrentPage} news={news} />
+      {renderList(currentPage, media, viewType, news, subNews)}
+    </StyledList>
+  );
+}
+
 function Category({ setCurrentPage, news }) {
   const [activeCategory, setActiveCategory] = useState(null);
   const categories = Array.from(new Set(news.map((item) => item.category)));
@@ -31,6 +40,10 @@ function Category({ setCurrentPage, news }) {
   );
 }
 
+function renderList(currentPage, media, viewType, news, subNews) {
+  return <>{createList(currentPage, media, viewType, news, subNews)}</>;
+}
+
 function createList(currentPage, media, viewType, news, subNews) {
   const item = media === "allMedia" ? news[currentPage] : (subNews.length !== 0 ? subNews[currentPage] : news[currentPage]);
 
@@ -55,26 +68,6 @@ function createList(currentPage, media, viewType, news, subNews) {
         <Right>{sideNewsList}</Right>
       </StyledDesc>
     </>
-  );
-}
-
-function renderList(currentPage, media, viewType, news, subNews) {
-  return <>{createList(currentPage, media, viewType, news, subNews)}</>;
-}
-
-export function List({
-  currentPage,
-  setCurrentPage,
-  media,
-  viewType,
-  news,
-  subNews,
-}) {
-  return (
-    <StyledList>
-      <Category setCurrentPage={setCurrentPage} news={news} />
-      {renderList(currentPage, media, viewType, news, subNews)}
-    </StyledList>
   );
 }
 

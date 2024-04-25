@@ -38,10 +38,9 @@ export function Press() {
 }
 
 function PressHeader({ media, setMedia, viewType, setViewType, setSubNews }) {
-  const allMedia = () => {
-    setMedia("allMedia");
-  };
-
+  const gridView = () => setViewType("grid");
+  const listView = () => setViewType("list"); 
+  const allMedia = () => setMedia("allMedia");
   const subscribedMedia = async () => {
     setMedia("subscribedMedia");
   
@@ -59,14 +58,6 @@ function PressHeader({ media, setMedia, viewType, setViewType, setSubNews }) {
     }
   };
 
-  const gridView = () => {
-    setViewType("grid");
-  };
-
-  const listView = () => {
-    setViewType("list"); 
-  };
-  
   return (
     <Header>
       <div className="press-title">

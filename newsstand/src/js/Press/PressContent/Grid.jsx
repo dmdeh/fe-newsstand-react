@@ -5,37 +5,12 @@ import { Subscription } from "./Subscribe";
 
 const PAGE_SIZE = 24;
 
-function getNews(news) {
-  return news.map((item) => ({ id: item.id, logoImageSrc: item.logoImageSrc }));
-}
-
-const shuffleLogosWithId = (news) => shuffle(getNews(news));
-
-function createGrid(index, media, viewType, news, subNews) {
-  const [allLogos, setAllLogos] = useState([]);
-  const [subscribedLogos, setSubscribedLogos] = useState([]);
-  const logos = media === "allMedia" ? allLogos : (subNews.length !== 0 ? subscribedLogos : allLogos);
-
-  useEffect(() => {
-    if (media === "allMedia") {
-      setAllLogos(shuffleLogosWithId(news));
-    } else setSubscribedLogos(getNews(subNews));
-  }, [news, subNews]);
-
-  if (index < logos.length) {
-    const { id, logoImageSrc } = logos[index];
-    return (
-      <StyledLogo className="press-logo" key={index}>
-        <img src={logoImageSrc} alt={id} />
-        <Subscription
-          id={id}
-          viewType={viewType}
-          logoImage={logoImageSrc}
-          setSubscribedLogos={setSubscribedLogos}
-        />
-      </StyledLogo>
-    );
-  }
+export function Grid({ currentPage, media, viewType, news, subNews }) {
+  return (
+    <StyledGrid>
+      {renderGrid(currentPage, media, viewType, news, subNews)}
+    </StyledGrid>
+  );
 }
 
 function renderGrid(page, media, viewType, news, subNews) {
@@ -48,12 +23,33 @@ function renderGrid(page, media, viewType, news, subNews) {
   return gridElements;
 }
 
-export function Grid({ currentPage, media, viewType, news, subNews }) {
-  return (
-    <StyledGrid>
-      {renderGrid(currentPage, media, viewType, news, subNews)}
-    </StyledGrid>
-  );
+function createGrid(index, media, viewType, news, subNews) {
+  const [allLogos, setAllLogos] = useState([]);
+  const [subscribedLogos, setSubscribedLogos] = useState([]);
+
+  const getNews = (news) => news.map((item) => ({ id: item.id, logoImageSrc: item.logoImageSrc }));
+
+  const shuffleNews = (news) => shuffle(getNews(news));
+
+  const logos = media === "allMedia" ? allLogos : (subNews.length !== 0 ? subscribedLogos : allLogos);
+
+  useEffect(() => {
+    media === "allMedia" ? setAllLogos(shuffleNews(news)) :setSubscribedLogos(getNews(subNews));
+  }, [news, subNews]);
+
+  if (index < logos.length) {
+    const { id, logoImageSrc } = logos[index];
+    return (
+      <StyledLogo className="press-logo" key={index}>
+        <img src={logoImageSrc} alt={id} />
+        <Subscription
+          id={id} logoImage={logoImageSrc}
+          viewType={viewType}
+          setSubscribedLogos={setSubscribedLogos}
+        />
+      </StyledLogo>
+    );
+  }
 }
 
 const StyledGrid = styled.div`
