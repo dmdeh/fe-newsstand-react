@@ -1,16 +1,9 @@
 import { styled } from "styled-components";
 import { useState, useEffect } from "react";
 
-export function Subscription({ id, logoImage, setSubscribedLogos, viewType }) {
+export function Subscription({ id, viewType }) {
   const [isSubscribed, setSubscribed] = useState(false);
   const [postId, setPostId] = useState(null);
-
-  useEffect(() => {
-    if (isSubscribed) {
-      console.log("구독", isSubscribed, id, logoImage);
-      setSubscribedLogos((prevLogos) => [...prevLogos, logoImage]);
-    }
-  }, [isSubscribed, logoImage, setSubscribedLogos]);
 
   useEffect(() => {
     if (isSubscribed) {
@@ -27,7 +20,20 @@ export function Subscription({ id, logoImage, setSubscribedLogos, viewType }) {
   }, [isSubscribed]);
 
   const handleClick = () => {
-    if(!isSubscribed) alert("구독한 언론사에 추가되었습니다.");
+    if (!isSubscribed) {
+      alert("내가 구독한 언론사에 추가되었습니다.");
+    } else {
+      alert("구독 해지 되었습니다.");
+      const request = {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: id }),
+      };
+
+      fetch("http://localhost:3000/api/users/channels", request)
+        .then((response) => response.json())
+        .then((data) => setPostId(data.id)); 
+    }
     setSubscribed(!isSubscribed);
   };
 
@@ -37,7 +43,7 @@ export function Subscription({ id, logoImage, setSubscribedLogos, viewType }) {
       hidden={viewType === "grid"}
       style={{ position: viewType === "grid" ? "absolute" : "static" }}
     >
-      {isSubscribed ? "+ 해지하기" : "+ 구독하기"}
+      {isSubscribed ? "- 해지하기" : "+ 구독하기"}
     </StyledButton>
   );
 }

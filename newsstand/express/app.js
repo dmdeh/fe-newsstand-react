@@ -31,3 +31,10 @@ app.post("/api/users/channels", (req, res) => {
   data.subscribe.push(req.body.id);
   res.send(data.subscribe);
 });
+
+app.delete("/api/users/channels", (req, res) => {
+  console.log("delete " + req.body.id);
+  const index = data.subscribe.indexOf(req.body.id);
+  if (index > -1) data.subscribe.splice(index, 1);
+  res.send(data.subscribe);
+});
