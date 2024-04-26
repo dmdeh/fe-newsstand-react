@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { shuffle } from "../../../utils/utils";
 import { Subscription } from "./Subscribe";
 
@@ -24,17 +24,15 @@ function renderGrid(page, media, viewType, news, subNews) {
 }
 
 function createGrid(index, media, viewType, news, subNews) {
-  const [allLogos, setAllLogos] = useState([]);
-  const [subscribedLogos, setSubscribedLogos] = useState([]);
+  const getNews = (news) => news.map((item) => ({ id: item.id, logoImageSrc: item.logoImageSrc, userSubscribed: item.userSubscribed }));
+  // const shuffleNews = (news) => shuffle(getNews(news));
 
-  const getNews = (news) => news.map((item) => ({ id: item.id, logoImageSrc: item.logoImageSrc }));
-
-  const shuffleNews = (news) => shuffle(getNews(news));
-
+  const allLogos = getNews(news)
+  const subscribedLogos = getNews(subNews)
   const logos = media === "allMedia" ? allLogos : (subNews.length !== 0 ? subscribedLogos : allLogos);
 
   useEffect(() => {
-    media === "allMedia" ? setAllLogos(shuffleNews(news)) :setSubscribedLogos(getNews(subNews));
+    media === "allMedia" ? allLogos : subscribedLogos;
   }, [news, subNews]);
 
   if (index < logos.length) {
@@ -43,9 +41,8 @@ function createGrid(index, media, viewType, news, subNews) {
       <StyledLogo className="press-logo" key={index}>
         <img src={logoImageSrc} alt={id} />
         <Subscription
-          id={id} logoImage={logoImageSrc}
           viewType={viewType}
-          setSubscribedLogos={setSubscribedLogos}
+          logo={logos[index]}
         />
       </StyledLogo>
     );
@@ -70,7 +67,6 @@ const StyledLogo = styled.div`
   text-align: center;
   background: white;
   position: relative;
-  max-height: 80px;
   &:hover {
     background: #f6f7f9;
     > button {

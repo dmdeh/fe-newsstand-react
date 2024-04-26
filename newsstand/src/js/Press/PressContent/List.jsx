@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import { Subscription } from "./Subscribe";
 
-export function List({ currentPage,setCurrentPage, media, viewType, news, subNews }) {
+export function List({ currentPage, setCurrentPage, media, viewType, news, subNews }) {
   return (
     <StyledList>
       <Category setCurrentPage={setCurrentPage} news={news} />
@@ -58,7 +58,7 @@ function createList(currentPage, media, viewType, news, subNews) {
       <Top>
         <img src={logoImageSrc} />
         <span>{editedTime}</span>
-        <Subscription viewType={viewType} logoImage={logoImageSrc} />
+        <Subscription viewType={viewType} logo={item} />
       </Top>
       <StyledDesc>
         <Left>
@@ -116,15 +116,24 @@ const Left = styled.div`
     height: 200px;
     width: 320px;
     margin: 0px 20px;
+    &:hover {
+      height: 210px;
+      width: 330px;
+    }
   }
   span {
     margin: 20px;
+    font-size: 18px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `;
 
 const Right = styled.div`
   width: 650px;
   margin-left: 2rem;
+  font-size: 18px;
   p:hover {
     text-decoration: underline;
   }
