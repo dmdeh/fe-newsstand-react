@@ -5,7 +5,7 @@ import { Subscription } from "./Subscribe";
 export function List({ currentPage, setCurrentPage, media, viewType, news, subNews }) {
   return (
     <StyledList>
-      <Category setCurrentPage={setCurrentPage} news={news} />
+      {media === 'allMedia' ? <Category setCurrentPage={setCurrentPage} news={news} /> : <SubscribedCategory setCurrentPage={setCurrentPage} news={subNews} />}
       {renderList(currentPage, media, viewType, news, subNews)}
     </StyledList>
   );
@@ -34,6 +34,30 @@ function Category({ setCurrentPage, news }) {
           $active={category === activeCategory ? "true" : "false"}
         >
           {category}
+        </CategoryBtn>
+      ))}
+    </StyledCategory>
+  );
+}
+
+function SubscribedCategory({ setCurrentPage, news }) {
+  const [activeCategory, setActiveCategory] = useState(null);
+  const categories = Array.from(new Set(news.map((item) => item.pressName)));
+
+  const handleCategoryClick = (pressName, index) => {
+    setCurrentPage(index);
+    setActiveCategory(pressName);
+  };
+
+  return (
+    <StyledCategory>
+      {categories.map((pressName, index) => (
+        <CategoryBtn
+          key={index}
+          onClick={() => handleCategoryClick(pressName, index)}
+          $active={pressName === activeCategory ? "true" : "false"}
+        >
+          {pressName}
         </CategoryBtn>
       ))}
     </StyledCategory>
