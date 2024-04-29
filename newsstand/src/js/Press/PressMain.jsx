@@ -1,28 +1,28 @@
 import styled from "styled-components";
-import { useState, useEffect, useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import { BarsOutlined, AppstoreOutlined } from "@ant-design/icons";
 import { PressContent } from "./PressContent/PressContent";
 import { fetchData } from "../../utils/utils";
 
 const initialState = {
-  media: "allMedia", /** all, subscribed */
-  viewType: "grid", /** grid, list */
+  media: "allMedia" /** all, subscribed */,
+  viewType: "grid" /** grid, list */,
   currentPage: 0,
-  news: [], /** news data */
-  subNews: [] /** subscribed news data */
+  news: [],
+  subNews: []
 };
 
 function reducer(state, action) {
   switch (action.type) {
-    case 'SET_MEDIA':
+    case "SET_MEDIA":
       return { ...state, media: action.payload };
-    case 'SET_VIEW_TYPE':
+    case "SET_VIEW_TYPE":
       return { ...state, viewType: action.payload };
-    case 'SET_CURRENT_PAGE':
+    case "SET_CURRENT_PAGE":
       return { ...state, currentPage: action.payload };
-    case 'SET_NEWS':
+    case "SET_NEWS":
       return { ...state, news: action.payload };
-    case 'SET_SUB_NEWS':
+    case "SET_SUB_NEWS":
       return { ...state, subNews: action.payload };
     default:
       return state;
@@ -33,38 +33,40 @@ export function Press() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    fetchData("http://localhost:3000/api/channels", news => {
-      dispatch({ type: 'SET_NEWS', payload: news });
+    fetchData("http://localhost:3000/api/channels", (news) => {
+      dispatch({ type: "SET_NEWS", payload: news });
     });
   }, []);
 
   return (
     <PressWrap>
       <PressHeader
-        setMedia={media => dispatch({ type: 'SET_MEDIA', payload: media })}
-        setViewType={viewType => dispatch({ type: 'SET_VIEW_TYPE', payload: viewType })}
-        setCurrentPage={page => dispatch({ type: 'SET_CURRENT_PAGE', payload: page })}
-        setNews={news => dispatch({ type: 'SET_NEWS', payload: news })}
-        setSubNews={subNews => dispatch({ type: 'SET_SUB_NEWS', payload: subNews })}      
-        />
+        media={state.media}
+        setMedia={(media) => dispatch({ type: "SET_MEDIA", payload: media })}
+        viewType={state.viewType}
+        setViewType={(viewType) => dispatch({ type: "SET_VIEW_TYPE", payload: viewType })}
+        setCurrentPage={(page) => dispatch({ type: "SET_CURRENT_PAGE", payload: page })}
+        setNews={(news) => dispatch({ type: "SET_NEWS", payload: news })}
+        setSubNews={(subNews) => dispatch({ type: "SET_SUB_NEWS", payload: subNews })}
+      />
       <PressContent
         media={state.media}
-        viewType={state.viewType} 
+        viewType={state.viewType}
         news={state.news}
         subNews={state.subNews}
         currentPage={state.currentPage}
-        setCurrentPage={page => dispatch({ type: 'SET_CURRENT_PAGE', payload: page })}
+        setCurrentPage={(page) => dispatch({ type: "SET_CURRENT_PAGE", payload: page })}
       />
     </PressWrap>
   );
 }
 
-function PressHeader({ media, setMedia, viewType, setViewType, setSubNews, setCurrentPage}) {
+function PressHeader({ media, setMedia, viewType, setViewType, setSubNews, setCurrentPage }) {
   const gridView = () => {
     setViewType("grid");
     setCurrentPage(0);
   };
-  
+
   const listView = () => {
     setViewType("list");
     setCurrentPage(0);
@@ -73,7 +75,7 @@ function PressHeader({ media, setMedia, viewType, setViewType, setSubNews, setCu
   const allMedia = () => {
     setMedia("allMedia");
     setCurrentPage(0);
-  }
+  };
 
   const subscribedMedia = async () => {
     setMedia("subscribedMedia");
