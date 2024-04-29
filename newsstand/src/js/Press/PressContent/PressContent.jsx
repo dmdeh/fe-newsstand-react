@@ -1,12 +1,9 @@
 import styled from "styled-components";
-import { useState } from "react";
 import { Grid } from "./Grid";
 import { List } from "./List";
 import { Swiper } from "./Swiper";
 
-export function PressContent({ media, viewType, news, subNews }) {
-  const [currentPage, setCurrentPage] = useState(0);
-
+export function PressContent({ media, viewType, news, subNews, currentPage, setCurrentPage }) {
   return (
     <Content>
       {viewType === "grid" ? (
