@@ -24,6 +24,10 @@ app.get("/api/channels", (req, res) => {
   res.json(data.news);
 });
 
+app.get("/api/newsFlash", (req, res) => {
+  res.json(data.newsFlash);
+});
+
 app.get("/api/users/channels", (req, res) => {
   res.send(data.news.filter((item) => data.subscribe.includes(item.id)));
 });
