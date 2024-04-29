@@ -1,12 +1,13 @@
 # fe-newsstand-react
+- React + Vite, Express 사용
 
 ## 기능 요구사항
 
 - 주차별 완성해야할 기능의 범위를 sprint단위로 설정
-- 1주차
-  - []
-- 2주차
-  - []
+
+- Header
+- NewsFlash
+- PressContent (main)
 
 ## 프로그래밍 요구사항
 
