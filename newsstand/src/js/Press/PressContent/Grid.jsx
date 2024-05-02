@@ -46,6 +46,10 @@ function createGrid(index, media, viewType, news, subNews) {
         />
       </StyledLogo>
     );
+  } else {
+    return (
+      <StyledLogo key={index}/>
+    )
   }
 }
 
