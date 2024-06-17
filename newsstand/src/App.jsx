@@ -1,21 +1,22 @@
-import { useState } from "react";
-import "./App.css";
+import styled from "styled-components";
+import { Header } from "./js/Header/Header";
+import { NewsFlash } from "./js/NewsFlash/NewsFlash";
+import { Press } from "./js/Press/PressMain";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-      </div>
-      <h1>newsstand</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          {count}
-        </button>
-      </div>
-    </>
+    <Wrap>
+      <Header />
+      <NewsFlash />
+      <Press />
+    </Wrap>
   );
 }
+
+const Wrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+`;
 
 export default App;

@@ -1,12 +1,20 @@
 # fe-newsstand-react
 
+- React + Vite, Express 사용
+
+## 구현
+
+![뉴스스탠드리액트](https://github.com/dmdeh/fe-newsstand-react/assets/131264106/726366c3-bc26-4390-a5b5-61f0352307a5)
+
+// 사진이 2개월 전의 데이터라 존재하지 않는 이슈
+
 ## 기능 요구사항
 
 - 주차별 완성해야할 기능의 범위를 sprint단위로 설정
-- 1주차
-  - []
-- 2주차
-  - []
+
+- Header
+- NewsFlash
+- PressContent (main)
 
 ## 프로그래밍 요구사항
 
@@ -23,11 +31,3 @@
 - 기타 리액트 훅 API
   - useEffect를 통해서 사이드이팩트 처리를 한다(데이터 통신등)
   - 기타 리액트가 제공하는 다양한 훅을 선택적으로 사용한다.
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
